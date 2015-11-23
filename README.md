@@ -5,25 +5,22 @@ TBSwiftExtensions is a delightful iOS, OSX and tv	OS library.
 
 The goal of this library is to provide useful extensions / helpers that can be used anywhere quickly and easily in order to reduce the code used for a same task. 
 
-Requirements
-------
+
+#Installation
 
 - Swift 2 or later
 - iOS 8.0 or later
 - OSX 10.10 or later
 - tvOS 9.0 or later
 
-##Installation
 
-Requires Swift 2/Xcode 7
+##Manually (iOS 7+)
 
-Manually (iOS 7+)
------------------
 
 Copy the TBSwiftExtensions folder into your Xcode project. (Make sure you add the files to your target(s))
 
-CocoaPods 0.36.0 or later (iOS 8+)
-------------------
+##CocoaPods 0.36.0 or later (iOS 8+)
+
 
 Add `pod TBSwiftExtensions` to your Podfile:
 
@@ -34,6 +31,12 @@ use_frameworks!
 
 pod 'TBSwiftExtensions'
 ```
+
+
+Usage
+-------
+
+Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
 Feedback
 ------

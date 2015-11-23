@@ -1,6 +1,6 @@
 //
 //  StringExtension.swift
-//  Jamzone
+//  TBSwiftExtension
 //
 //  Created by Tom Baranes on 14/11/15.
 //  Copyright © 2015 Recisio. All rights reserved.
