@@ -21,7 +21,7 @@
             self.addTarget(self, action: "handlePan:")
         }
         
-        private func handleTap(pan: UIPanGestureRecognizer) {
+        func handlePan(pan: UIPanGestureRecognizer) {
             panAction?(pan)
         }
         

@@ -29,7 +29,7 @@
             self.addTarget(self, action: "handleSwipe:")
         }
         
-        private func handleSwipe(swipe: UISwipeGestureRecognizer) {
+        func handleSwipe(swipe: UISwipeGestureRecognizer) {
             swipeAction?(swipe)
         }
         

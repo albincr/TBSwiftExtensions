@@ -20,7 +20,7 @@
             self.addTarget(self, action: "handlePinch:")
         }
         
-        private func handlePinch(pinch: UIPinchGestureRecognizer) {
+        func handlePinch(pinch: UIPinchGestureRecognizer) {
             pinchAction?(pinch)
         }
         

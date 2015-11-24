@@ -14,7 +14,7 @@
         
         private var tapAction: ((UITapGestureRecognizer) -> Void)?
         
-        internal convenience init (numberOfTapsRequired: Int, numberOfTouchesRequired: Int, tapAction: ((UITapGestureRecognizer) -> Void)?) {
+        internal convenience init (numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1, tapAction: ((UITapGestureRecognizer) -> Void)?) {
             self.init()
             self.numberOfTapsRequired = numberOfTapsRequired
             self.numberOfTouchesRequired = numberOfTouchesRequired
@@ -22,7 +22,7 @@
             self.addTarget(self, action: "handleTap:")
         }
         
-        private func handleTap(tap: UITapGestureRecognizer) {
+        func handleTap(tap: UITapGestureRecognizer) {
             tapAction?(tap)
         }
         

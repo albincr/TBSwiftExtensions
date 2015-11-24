@@ -23,7 +23,7 @@
             self.addTarget(self, action: "handleLongPress:")
         }
         
-        private func handleLongPress(longPress: UILongPressGestureRecognizer) {
+        func handleLongPress(longPress: UILongPressGestureRecognizer) {
             longPressAction?(longPress)
         }
         

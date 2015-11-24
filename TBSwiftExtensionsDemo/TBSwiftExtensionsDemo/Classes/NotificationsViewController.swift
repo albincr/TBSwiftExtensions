@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NotificationsViewController.swift
 //  TBSwiftExtensionsDemo
 //
 //  Created by Tom Baranes on 23/11/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class NotificationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,24 @@ class ViewController: UITableViewController {
     }
     
 
+    
+    func notificationExample() {
+        print("NotificationProxy examples:")
+        
+        print("1 - Registering")
+        let notification = NotificationProxy(name: "aNotificationExample") { notification -> () in
+            print("notification received: \(notification.object)")
+        }
+        notification.start()
+        
+        print("2 - Post a notification")
+        NSNotificationCenter().postNotificationName("aNotificationExample", object: "hello world")
+        print("3 - Remove observer")
+        notification.stop()
+        print("4 - Post a notification again")
+        NSNotificationCenter().postNotificationName("aNotificationExample", object: "hello world")
+    }
+    
     /*
     // MARK: - Navigation
 

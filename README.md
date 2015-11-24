@@ -38,6 +38,82 @@ Usage
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
+ Gestures (iOS only)
+-------
+
+**BlockTapGesturesRecognizers**:
+
+```
+let blockTapGesture = BlockTapGestureRecognizer() { _ in
+   print("tap gesture detected")
+}
+view.addGestureRecognizer(blockTapGesture)
+
+// OR 
+
+let blockTapGesture = BlockTapGestureRecognizer(numberOfTapsRequired: 1, numberOfTouchesRequired: 1) { _ in
+   print("tap gesture detected")
+}
+view.addGestureRecognizer(blockTapGesture)
+```
+
+**BlockLongPressGesturesRecognizers**:
+
+```
+let longPressGesture = BlockLongPressGestureRecognizer() { _ in
+	print("long press gesture detected")
+}
+view.addGestureRecognizer(longPressGesture)
+
+// OR
+
+let longPressGesture = BlockLongPressGestureRecognizer(numberOfTapsRequired: 0, numberOfTouchesRequired: 1, minimumPressDuration: 0.5) { _ in
+	print("long press gesture detected")
+}
+view.addGestureRecognizer(longPressGesture)
+```
+
+**BlockSwipeGesturesRecognizers**:
+
+```
+let swipeDownGesture = BlockSwipeGestureRecognizer(direction: .Down) { _ in
+	print("swipe gesture detected")	
+}
+view.addGestureRecognizer(swipeDownGesture)
+
+// OR
+
+let swipeDownGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, direction: .Down) { _ in
+	print("swipe gesture detected")
+}
+view.addGestureRecognizer(swipeDownGesture)
+```
+
+**BlockPanGesturesRecognizers**:
+
+```
+let panGesture = BlockPanGestureRecognizer() { _ in
+	print("pan gesture detected"
+}
+view.addGestureRecognizer(panGesture)
+
+// OR
+
+let panGesture = BlockPanGestureRecognizer(minimumNumberOfTouches: 1) { _ in
+	print("pan gesture detected"
+}
+view.addGestureRecognizer(panGesture)
+```
+
+**BlockPinchGesturesRecognizers**:
+
+```
+let pinchGesture = BlockPinchGestureRecognizer { _ in
+	print("pinch gesture detected"
+}
+viewPinchGesture.addGestureRecognizer(pinchGesture)     
+```
+
 Feedback
 ------
 

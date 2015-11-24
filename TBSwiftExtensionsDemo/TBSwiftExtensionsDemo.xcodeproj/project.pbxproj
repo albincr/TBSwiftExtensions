@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */; };
 		E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9011C03998A000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9021C03998D000DADBA /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
@@ -15,10 +16,10 @@
 		E281B9061C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
 		E281B9071C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
 		E281B9081C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
-		E281B90B1C039B7C000DADBA /* Localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = E281B90D1C039B7C000DADBA /* Localizables.strings */; };
+		E281B90B1C039B7C000DADBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E281B90D1C039B7C000DADBA /* Localizable.strings */; };
 		E281B9141C039BE4000DADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9111C039BE4000DADBA /* AppDelegate.swift */; };
 		E281B9151C039BE4000DADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E281B9121C039BE4000DADBA /* Main.storyboard */; };
-		E281B9161C039BE4000DADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9131C039BE4000DADBA /* ViewController.swift */; };
+		E281B9161C039BE4000DADBA /* GesturesExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */; };
 		E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9181C039C22000DADBA /* AppDelegate.swift */; };
 		E281B91B1C039C22000DADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9191C039C22000DADBA /* ViewController.swift */; };
 		E281B9211C039D18000DADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E281B9201C039D18000DADBA /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		E281B92C1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92B1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift */; };
 		E281B92E1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92D1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift */; };
 		E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */; };
+		E28B88911C03B00F00CBA57B /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */; };
+		E28B88931C03B01900CBA57B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88921C03B01900CBA57B /* ViewController.swift */; };
 		E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EBF1C0392E40065268F /* Assets.xcassets */; };
 		E2D92ECE1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92ECD1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift */; };
 		E2D92EDF1C03946B0065268F /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
@@ -54,11 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizablesExampleViewController.swift; sourceTree = "<group>"; };
 		E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapGestureRecognizer.swift; sourceTree = "<group>"; };
-		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizables.strings; sourceTree = "<group>"; };
+		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E281B9111C039BE4000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E281B9121C039BE4000DADBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		E281B9131C039BE4000DADBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturesExampleViewController.swift; sourceTree = "<group>"; };
 		E281B9181C039C22000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
 		E281B9191C039C22000DADBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
 		E281B9201C039D18000DADBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		E281B92B1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockLongPressGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B92D1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipeGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinchGestureRecognizer.swift; sourceTree = "<group>"; };
+		E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E28B88921C03B01900CBA57B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionsDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EBF1C0392E40065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92EC41C0392E40065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +129,10 @@
 			children = (
 				E281B9121C039BE4000DADBA /* Main.storyboard */,
 				E281B9111C039BE4000DADBA /* AppDelegate.swift */,
-				E281B9131C039BE4000DADBA /* ViewController.swift */,
+				E28B88921C03B01900CBA57B /* ViewController.swift */,
+				E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */,
+				E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */,
+				E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -177,7 +186,7 @@
 				E281B9101C039BE4000DADBA /* Classes */,
 				E2D92EBF1C0392E40065268F /* Assets.xcassets */,
 				E2D92EC41C0392E40065268F /* Info.plist */,
-				E281B90D1C039B7C000DADBA /* Localizables.strings */,
+				E281B90D1C039B7C000DADBA /* Localizable.strings */,
 			);
 			name = TBSwiftExtensionsDemoIOS;
 			path = TBSwiftExtensionsDemo;
@@ -367,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */,
-				E281B90B1C039B7C000DADBA /* Localizables.strings in Resources */,
+				E281B90B1C039B7C000DADBA /* Localizable.strings in Resources */,
 				E281B9151C039BE4000DADBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,10 +419,13 @@
 				E2D92EE11C03946B0065268F /* SwiftExtension.swift in Sources */,
 				E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 				E281B92A1C03A132000DADBA /* BlockPanGestureRecognizer.swift in Sources */,
+				E28B88931C03B01900CBA57B /* ViewController.swift in Sources */,
 				E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */,
 				E281B9141C039BE4000DADBA /* AppDelegate.swift in Sources */,
-				E281B9161C039BE4000DADBA /* ViewController.swift in Sources */,
+				E28B88911C03B00F00CBA57B /* NotificationsViewController.swift in Sources */,
+				E281B9161C039BE4000DADBA /* GesturesExampleViewController.swift in Sources */,
 				E281B92C1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift in Sources */,
+				E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,12 +478,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E281B90D1C039B7C000DADBA /* Localizables.strings */ = {
+		E281B90D1C039B7C000DADBA /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E281B90C1C039B7C000DADBA /* en */,
 			);
-			name = Localizables.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

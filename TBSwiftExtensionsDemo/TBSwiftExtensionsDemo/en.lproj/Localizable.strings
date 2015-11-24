@@ -1,0 +1,4 @@
+"gestures_example.label.tap_counter" = "Tap counter: %d";
+"gestures_example.label.long_press_counter" = "Long press counter: %d";
+"gestures_example.label.swipe_counter" = "Swipe counter: %d";
+"home.label.gestures_examples" = "Gestures example: play with the any gesture, and check the console log";
