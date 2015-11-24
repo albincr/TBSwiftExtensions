@@ -6,33 +6,29 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
-#if os(iOS)
+import UIKit
+
+class BlockSwipeGestureRecognizer: UISwipeGestureRecognizer {
     
-    import UIKit
+    private var swipeAction: ((UISwipeGestureRecognizer) -> Void)?
     
-    class BlockSwipeGestureRecognizer: UISwipeGestureRecognizer {
-        
-        private var swipeAction: ((UISwipeGestureRecognizer) -> Void)?
-        
-        internal convenience init (numberOfTouchesRequired: Int = 1,  swipeAction: ((UISwipeGestureRecognizer) -> Void)?) {
-            self.init()
-            self.numberOfTouchesRequired = numberOfTouchesRequired
-            self.swipeAction = swipeAction
-            self.addTarget(self, action: "handleSwipe:")
-        }
-        
-        internal convenience init (numberOfTouchesRequired: Int = 1, direction: UISwipeGestureRecognizerDirection,  swipeAction: ((UISwipeGestureRecognizer) -> Void)?) {
-            self.init()
-            self.numberOfTouchesRequired = numberOfTouchesRequired
-            self.direction = direction
-            self.swipeAction = swipeAction
-            self.addTarget(self, action: "handleSwipe:")
-        }
-        
-        func handleSwipe(swipe: UISwipeGestureRecognizer) {
-            swipeAction?(swipe)
-        }
-        
+    internal convenience init (numberOfTouchesRequired: Int = 1,  swipeAction: ((UISwipeGestureRecognizer) -> Void)?) {
+        self.init()
+        self.numberOfTouchesRequired = numberOfTouchesRequired
+        self.swipeAction = swipeAction
+        self.addTarget(self, action: "handleSwipe:")
     }
     
-#endif
+    internal convenience init (numberOfTouchesRequired: Int = 1, direction: UISwipeGestureRecognizerDirection,  swipeAction: ((UISwipeGestureRecognizer) -> Void)?) {
+        self.init()
+        self.numberOfTouchesRequired = numberOfTouchesRequired
+        self.direction = direction
+        self.swipeAction = swipeAction
+        self.addTarget(self, action: "handleSwipe:")
+    }
+    
+    func handleSwipe(swipe: UISwipeGestureRecognizer) {
+        swipeAction?(swipe)
+    }
+    
+}

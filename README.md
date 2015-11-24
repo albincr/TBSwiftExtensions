@@ -33,6 +33,30 @@ pod 'TBSwiftExtensions'
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
+### BlockNotification (iOS, OSX, tvOS)
+
+```
+// Register a notification
+let notificationProxy = BlockNotification("aNotificationName": name) { notification in
+	print("notification received: \(notification.object))
+}
+
+// Post a notification
+NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", object: "Hello world")
+
+```
+
+### Localizables (iOS only)
+
+```
+aView.convertLocalizables()
+```
+
+**How is it working?**
+
+It iterates on all the subviews of the view, and use the text / placeholder as key in `NSLocalizedString`.
+By settings your localizable key in your xib / storyboard, all yours string will be automatically translated just by calling the above method.
+
 ###Gestures (iOS only)
 
 **BlockTapGesturesRecognizers**:

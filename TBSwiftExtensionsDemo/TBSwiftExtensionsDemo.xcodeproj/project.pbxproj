@@ -10,8 +10,8 @@
 		E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */; };
 		E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9011C03998A000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
-		E281B9021C03998D000DADBA /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
-		E281B9031C03998D000DADBA /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* SwiftExtension.swift */; };
+		E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
+		E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
 		E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
 		E281B9061C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
 		E281B9071C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
@@ -30,17 +30,17 @@
 		E281B92C1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92B1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift */; };
 		E281B92E1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92D1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift */; };
 		E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */; };
-		E28B88911C03B00F00CBA57B /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */; };
-		E28B88931C03B01900CBA57B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88921C03B01900CBA57B /* ViewController.swift */; };
+		E28B88911C03B00F00CBA57B /* NotificationsExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */; };
+		E28E34DF1C0475EC004CD4C9 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
+		E28E34E01C0475EC004CD4C9 /* TBSwiftExtensionsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DE1C0475EC004CD4C9 /* TBSwiftExtensionsDemoTests.swift */; };
 		E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EBF1C0392E40065268F /* Assets.xcassets */; };
-		E2D92ECE1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92ECD1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift */; };
-		E2D92EDF1C03946B0065268F /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
-		E2D92EE01C03946B0065268F /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
-		E2D92EE11C03946B0065268F /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* SwiftExtension.swift */; };
-		E2D92EE21C03946B0065268F /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* SwiftExtension.swift */; };
+		E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
+		E2D92EE01C03946B0065268F /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
+		E2D92EE11C03946B0065268F /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
+		E2D92EE21C03946B0065268F /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
 		E2D92EF01C0395320065268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EEF1C0395320065268F /* Assets.xcassets */; };
-		E2D92EFA1C03955A0065268F /* NotificationProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* NotificationProxy.swift */; };
-		E2D92EFB1C03955A0065268F /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* SwiftExtension.swift */; };
+		E2D92EFA1C03955A0065268F /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
+		E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
 		E2D92EFE1C0396D80065268F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E2D92EFF1C0396D80065268F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E2D92F0F1C0397060065268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D92F0E1C0397060065268F /* Assets.xcassets */; };
@@ -73,16 +73,16 @@
 		E281B92B1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockLongPressGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B92D1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipeGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinchGestureRecognizer.swift; sourceTree = "<group>"; };
-		E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
-		E28B88921C03B01900CBA57B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsExampleTableViewController.swift; sourceTree = "<group>"; };
+		E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupiableTests.swift; sourceTree = "<group>"; };
+		E28E34DE1C0475EC004CD4C9 /* TBSwiftExtensionsDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBSwiftExtensionsDemoTests.swift; sourceTree = "<group>"; };
 		E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionsDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EBF1C0392E40065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92EC41C0392E40065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D92EC91C0392E40065268F /* TBSwiftExtensionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBSwiftExtensionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D92ECD1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBSwiftExtensionsDemoTests.swift; sourceTree = "<group>"; };
 		E2D92ECF1C0392E40065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2D92EDC1C03946B0065268F /* NotificationProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationProxy.swift; sourceTree = "<group>"; };
-		E2D92EDD1C03946B0065268F /* SwiftExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtension.swift; sourceTree = "<group>"; };
+		E2D92EDC1C03946B0065268F /* BlockNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNotification.swift; sourceTree = "<group>"; };
+		E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupiableProtocol.swift; sourceTree = "<group>"; };
 		E2D92EE91C0395320065268F /* TBSwiftExtensionDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EEF1C0395320065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92EF41C0395320065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,10 +129,9 @@
 			children = (
 				E281B9121C039BE4000DADBA /* Main.storyboard */,
 				E281B9111C039BE4000DADBA /* AppDelegate.swift */,
-				E28B88921C03B01900CBA57B /* ViewController.swift */,
 				E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */,
 				E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */,
-				E28B88901C03B00F00CBA57B /* NotificationsViewController.swift */,
+				E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -153,6 +152,15 @@
 				E281B9271C039DA8000DADBA /* Main.storyboard */,
 				E281B9231C039DA0000DADBA /* AppDelegate.swift */,
 				E281B9241C039DA0000DADBA /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E28E34DC1C0475EC004CD4C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */,
+				E28E34DE1C0475EC004CD4C9 /* TBSwiftExtensionsDemoTests.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,7 +203,7 @@
 		E2D92ECC1C0392E40065268F /* TBSwiftExtensionsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2D92ECD1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift */,
+				E28E34DC1C0475EC004CD4C9 /* Classes */,
 				E2D92ECF1C0392E40065268F /* Info.plist */,
 			);
 			path = TBSwiftExtensionsDemoTests;
@@ -206,8 +214,8 @@
 			children = (
 				E2D92EFC1C0396D80065268F /* ios */,
 				E2D92F001C0396E10065268F /* osx */,
-				E2D92EDC1C03946B0065268F /* NotificationProxy.swift */,
-				E2D92EDD1C03946B0065268F /* SwiftExtension.swift */,
+				E2D92EDC1C03946B0065268F /* BlockNotification.swift */,
+				E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */,
 			);
 			name = TBSwiftExtensions;
 			path = ../TBSwiftExtensions;
@@ -413,16 +421,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D92EDF1C03946B0065268F /* NotificationProxy.swift in Sources */,
+				E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */,
 				E2D92EFE1C0396D80065268F /* UIViewExtensions.swift in Sources */,
 				E281B92E1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift in Sources */,
-				E2D92EE11C03946B0065268F /* SwiftExtension.swift in Sources */,
+				E2D92EE11C03946B0065268F /* OccupiableProtocol.swift in Sources */,
 				E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 				E281B92A1C03A132000DADBA /* BlockPanGestureRecognizer.swift in Sources */,
-				E28B88931C03B01900CBA57B /* ViewController.swift in Sources */,
 				E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */,
 				E281B9141C039BE4000DADBA /* AppDelegate.swift in Sources */,
-				E28B88911C03B00F00CBA57B /* NotificationsViewController.swift in Sources */,
+				E28B88911C03B00F00CBA57B /* NotificationsExampleTableViewController.swift in Sources */,
 				E281B9161C039BE4000DADBA /* GesturesExampleViewController.swift in Sources */,
 				E281B92C1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift in Sources */,
 				E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */,
@@ -433,10 +440,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D92ECE1C0392E40065268F /* TBSwiftExtensionsDemoTests.swift in Sources */,
-				E2D92EE01C03946B0065268F /* NotificationProxy.swift in Sources */,
+				E2D92EE01C03946B0065268F /* BlockNotification.swift in Sources */,
 				E2D92EFF1C0396D80065268F /* UIViewExtensions.swift in Sources */,
-				E2D92EE21C03946B0065268F /* SwiftExtension.swift in Sources */,
+				E28E34E01C0475EC004CD4C9 /* TBSwiftExtensionsDemoTests.swift in Sources */,
+				E28E34DF1C0475EC004CD4C9 /* OccupiableTests.swift in Sources */,
+				E2D92EE21C03946B0065268F /* OccupiableProtocol.swift in Sources */,
 				E281B9061C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,9 +454,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E281B91B1C039C22000DADBA /* ViewController.swift in Sources */,
-				E2D92EFA1C03955A0065268F /* NotificationProxy.swift in Sources */,
+				E2D92EFA1C03955A0065268F /* BlockNotification.swift in Sources */,
 				E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */,
-				E2D92EFB1C03955A0065268F /* SwiftExtension.swift in Sources */,
+				E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */,
 				E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */,
 				E281B9071C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 			);
@@ -461,9 +469,9 @@
 				E281B9261C039DA0000DADBA /* ViewController.swift in Sources */,
 				E281B9011C03998A000DADBA /* UIViewExtensions.swift in Sources */,
 				E281B9081C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
-				E281B9031C03998D000DADBA /* SwiftExtension.swift in Sources */,
+				E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */,
 				E281B9251C039DA0000DADBA /* AppDelegate.swift in Sources */,
-				E281B9021C03998D000DADBA /* NotificationProxy.swift in Sources */,
+				E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

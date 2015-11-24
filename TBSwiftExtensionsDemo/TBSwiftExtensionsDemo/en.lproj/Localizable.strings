@@ -1,3 +1,8 @@
+"localizables_example.label" = "I am an UILabel automatically translated";
+"localizables_example.button" = "I am an UIButton automatically translated";
+"localizables_example.text_field" = "I am an UITextField placeholder automatically translated";
+"localizables_example.text_view" = "I am an UITextView placeholder automatically translated";
+
 "gestures_example.label.tap_counter" = "Tap counter: %d";
 "gestures_example.label.long_press_counter" = "Long press counter: %d";
 "gestures_example.label.swipe_counter" = "Swipe counter: %d";
