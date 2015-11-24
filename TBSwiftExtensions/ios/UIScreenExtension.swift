@@ -14,7 +14,7 @@ extension UIScreen {
         return UIApplication.sharedApplication().statusBarOrientation
     }
     
-    public static func currentSize() -> CGSize {
+    public static func screenSize() -> CGSize {
         return CGSizeMake(screenWidth, screenHeight)
     }
 

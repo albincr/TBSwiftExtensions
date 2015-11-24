@@ -14,6 +14,7 @@ class VariousDataViewController: UIViewController {
     // NSBundleExtension
     // UIScreen
     // Run
+    // Colors
     override func viewDidLoad() {
         super.viewDidLoad()
         UIScreen.screenOrientation()

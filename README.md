@@ -110,6 +110,22 @@ var aString = "test@"
 print(aString.isEmail) // false
 ```
 
+### NSUserDefaults extension
+
+**Is key set in the user defaults**
+
+```
+NSUserDefaults.contains("aKey")
+// OR
+NSUserDefaults.standarUserDefaults.contains("aKey")
+```
+
+**Reset the defaults**
+
+```
+NSUserDefaults.standarUserDefaults.reset()
+```
+
 ### NSBundle extension (iOS only)
 
 **App version**
@@ -151,6 +167,14 @@ print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
 
 ```
 print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
+```
+
+### UIImage extension
+
+**Create an image from a color**
+
+```
+let image = UIImage.imageWithColor(UIColor.greenColor())
 ```
 
 ### Occupiable

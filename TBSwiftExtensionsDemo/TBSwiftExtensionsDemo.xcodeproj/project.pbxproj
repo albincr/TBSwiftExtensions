@@ -50,6 +50,12 @@
 		E29E73461C04BA6300F059F1 /* NSBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */; };
 		E29E734A1C04BD0000F059F1 /* VariousDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73491C04BD0000F059F1 /* VariousDataViewController.swift */; };
 		E29E734C1C04BDFD00F059F1 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */; };
+		E29E73561C04CC2D00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
+		E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
+		E29E73581C04CC6A00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
+		E29E73591C04CC6B00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
+		E29E735B1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */; };
+		E29E735D1C05119900F059F1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735C1C05119900F059F1 /* UIImageExtension.swift */; };
 		E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF81C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF91C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
@@ -102,6 +108,9 @@
 		E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundleExtension.swift; sourceTree = "<group>"; };
 		E29E73491C04BD0000F059F1 /* VariousDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariousDataViewController.swift; sourceTree = "<group>"; };
 		E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
+		E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsExtensionTests.swift; sourceTree = "<group>"; };
+		E29E735C1C05119900F059F1 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensionTests.swift; sourceTree = "<group>"; };
 		E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionsDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +204,7 @@
 				E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */,
 				E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */,
 				E29E73431C04B42800F059F1 /* StringExtensionTests.swift */,
+				E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -254,6 +264,7 @@
 				E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */,
 				E29E731D1C04AF6A00F059F1 /* NSObjectExtension.swift */,
 				E29E733E1C04B32F00F059F1 /* StringExtension.swift */,
+				E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */,
 			);
 			name = TBSwiftExtensions;
 			path = ../TBSwiftExtensions;
@@ -280,6 +291,7 @@
 				E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */,
 				E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */,
 				E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */,
+				E29E735C1C05119900F059F1 /* UIImageExtension.swift */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -463,6 +475,7 @@
 			files = (
 				E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */,
 				E29E731E1C04AF6A00F059F1 /* NSObjectExtension.swift in Sources */,
+				E29E735D1C05119900F059F1 /* UIImageExtension.swift in Sources */,
 				E2D92EFE1C0396D80065268F /* UIViewExtensions.swift in Sources */,
 				E281B92E1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift in Sources */,
 				E29E733F1C04B32F00F059F1 /* StringExtension.swift in Sources */,
@@ -470,6 +483,7 @@
 				E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 				E29E734A1C04BD0000F059F1 /* VariousDataViewController.swift in Sources */,
 				E29E734C1C04BDFD00F059F1 /* UIScreenExtension.swift in Sources */,
+				E29E73561C04CC2D00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */,
 				E281B92A1C03A132000DADBA /* BlockPanGestureRecognizer.swift in Sources */,
 				E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */,
@@ -487,7 +501,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29E735B1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift in Sources */,
 				E29E733B1C04B2B800F059F1 /* ArrayExtensionTests.swift in Sources */,
+				E29E73591C04CC6B00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E29E733C1C04B2B800F059F1 /* DictionaryExtensionTests.swift in Sources */,
 				E29E73421C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E29E733D1C04B2B800F059F1 /* NSObjectExtensionTests.swift in Sources */,
@@ -510,6 +526,7 @@
 				E29E73401C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */,
 				E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */,
+				E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2F13EBA1C04A3BC0029E7E4 /* ArrayExtension.swift in Sources */,
 				E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */,
 				E281B9071C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
@@ -527,6 +544,7 @@
 				E29E73411C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E281B9081C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
 				E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */,
+				E29E73581C04CC6A00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2F13EBB1C04A3BD0029E7E4 /* ArrayExtension.swift in Sources */,
 				E281B9251C039DA0000DADBA /* AppDelegate.swift in Sources */,
 				E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */,
