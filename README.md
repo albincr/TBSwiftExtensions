@@ -33,6 +33,149 @@ pod 'TBSwiftExtensions'
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
+### Array extensions
+
+**Remove an object**
+
+```
+var array = [1, 2, 3]
+var isObjectRemoved = array.removeObject(2)
+print(isObjectRemoved) // true
+isObjectRemoved = array.removeObject(5) 
+print(isObjectRemoved) // false
+```
+
+### Dictionary extensions
+
+**Merge several dictionaries**
+
+```
+let dic1 = ["one": 1, "two": 2]
+let dic2 = ["three": 3, "four": 4]
+var finalDic: Dictionary<String, Int> = [:]
+finalDic.merge(dic1, dic2) 
+print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
+```
+
+### NSObject extension
+
+**Get the class name of a `NSObject`**
+
+```
+let vc = UIViewController()
+print(vc.className) // UIViewController
+print(UIViewController.className) // UIViewController
+```
+
+### String extension
+
+**Length**
+
+```
+var aString = "hello world"
+print(aString.length) // 11
+```
+
+**Subscript usage**
+
+```
+var aString = "hello world"
+print(aString[0]) // h
+print(aString[2]) // l
+print(aString[1...3]) // ell
+```
+
+**Contains**
+
+```
+let aString = "Hello world"
+print (aString.contains("hello")) // true
+print (aString.contains("hellooooo")) // false
+```
+
+**Capitalize the first letter**
+
+```
+var aString = "hello world"
+aString = aString.capitalizeFirst 
+print(aString)// Hello world
+```
+
+**Check if an email is valid**
+
+```
+var aString = "test@gmail.com"
+print(aString.isEmail) // true
+var aString = "test@"
+print(aString.isEmail) // false
+```
+
+### NSBundle extension (iOS only)
+
+**App version**
+
+```
+NSBundle.mainBundle().appVersion
+NSBundle(URL: someURL)?.appVersion
+```
+
+**App build**
+
+```
+NSBundle(URL: someURL)?.appBuild
+NSBundle.mainBundle().appBuild
+```
+
+### UIScreen extension (iOS only)
+
+**Screen orientation**
+
+```
+if UIInterfaceOrientationIsPortrait(UIScreen.screenOrientation())) {
+	// Portrait
+} else {
+	// Landscape
+}
+```
+
+**Screen size:**
+
+```
+print(UIScreen.currentSize) // CGSize(375.0, 667.0) on iPhone6
+print(UIScreen.screenWidth) // 375.0 on iPhone6
+print(UIScreen.screenHeight) // 667.0 on iPhone6
+print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
+```
+
+**Status bar**
+
+```
+print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
+```
+
+### Occupiable
+
+The following use cases works for String Array, Dictionary, and Set
+
+**`isEmpty` / `isNotEmpty`**
+
+*No optional types only*
+
+```
+var string = "Hello world"
+print(string.isNotEmpty) // true
+print(string.isEmpty) // false
+```
+
+**`isNilOrEmpty`**
+
+*Optional types only*
+
+```
+let string: String? = ""
+print(string.isNilOrEmpty) // true
+```
+
 ### BlockNotification (iOS, OSX, tvOS)
 
 ```

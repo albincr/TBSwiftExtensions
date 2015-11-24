@@ -9,12 +9,8 @@
 import Foundation
 import UIKit
 
-// UIView's helper
 extension UIView {
     
-    /**
-     Localizes all UIView's subviews by using their key as NSLocalizedString key
-     */
     func convertLocalizables() {
         if subviews.count == 0 {
             return

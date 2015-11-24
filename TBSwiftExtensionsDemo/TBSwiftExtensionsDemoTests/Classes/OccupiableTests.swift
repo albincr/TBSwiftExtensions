@@ -7,11 +7,11 @@
 //
 
 import XCTest
-@testable import TBSwiftExtensionsDemo
+@testable import TBSwiftExtensionsDemoIOS
 
 class OccupiableTests: XCTestCase {
     
-    // MARK - 
+    // MARK - Life cycle
     
     override func setUp() {
         super.setUp()
