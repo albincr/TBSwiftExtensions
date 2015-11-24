@@ -7,15 +7,14 @@ The goal of this library is to provide useful extensions / helpers that can be u
 
 
 #Installation
+----
 
 - Swift 2 or later
 - iOS 8.0 or later
 - OSX 10.10 or later
 - tvOS 9.0 or later
 
-
 ##Manually (iOS 7+)
-
 
 Copy the TBSwiftExtensions folder into your Xcode project. (Make sure you add the files to your target(s))
 
@@ -32,14 +31,12 @@ use_frameworks!
 pod 'TBSwiftExtensions'
 ```
 
-
-Usage
--------
+#Usage
+----
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
- Gestures (iOS only)
--------
+##Gestures (iOS only)
 
 **BlockTapGesturesRecognizers**:
 
@@ -114,19 +111,19 @@ let pinchGesture = BlockPinchGestureRecognizer { _ in
 viewPinchGesture.addGestureRecognizer(pinchGesture)     
 ```
 
-Feedback
-------
+#Feedback
+----
 
   * If you found a **bug**, open an **issue**
   * If you have a **feature request**, open an **issue**
   * If you want to **contribute**, submit a **pull request**
 
-Contact
-------
+#Contact
+----
 
 * [@tbaranes](https://github.com/tbaranes/) on github
 
-License
-------
+#License
+----
 
 TBSwiftExtensions is under the MIT license. See the [LICENSE](https://github.com/tbaranes/TBSwiftExtensions/blob/master/LICENSE) file for more information.
