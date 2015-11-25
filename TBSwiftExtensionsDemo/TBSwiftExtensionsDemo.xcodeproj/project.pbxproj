@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */; };
-		E23B1D871C0629E300C986BF /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D861C0629E300C986BF /* NSMutableAttributedString.swift */; };
 		E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8C1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8D1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8E1C062E9600C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D901C062EA400C986BF /* NSRangeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */; };
 		E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */; };
+		E23B1D961C06517800C986BF /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */; };
 		E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9011C03998A000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
@@ -91,10 +91,10 @@
 
 /* Begin PBXFileReference section */
 		E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizablesExampleViewController.swift; sourceTree = "<group>"; };
-		E23B1D861C0629E300C986BF /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSMutableAttributedString.swift; path = ../NSMutableAttributedString.swift; sourceTree = "<group>"; };
 		E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtension.swift; sourceTree = "<group>"; };
 		E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtensionTests.swift; sourceTree = "<group>"; };
 		E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringExampleViewController.swift; sourceTree = "<group>"; };
+		E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
 		E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E281B9111C039BE4000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -306,7 +306,7 @@
 				E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */,
 				E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */,
 				E29E735C1C05119900F059F1 /* UIImageExtension.swift */,
-				E23B1D861C0629E300C986BF /* NSMutableAttributedString.swift */,
+				E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -491,7 +491,6 @@
 				E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */,
 				E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */,
-				E23B1D871C0629E300C986BF /* NSMutableAttributedString.swift in Sources */,
 				E29E731E1C04AF6A00F059F1 /* NSObjectExtension.swift in Sources */,
 				E29E735D1C05119900F059F1 /* UIImageExtension.swift in Sources */,
 				E2D92EFE1C0396D80065268F /* UIViewExtensions.swift in Sources */,
@@ -509,6 +508,7 @@
 				E28B88911C03B00F00CBA57B /* NotificationsExampleTableViewController.swift in Sources */,
 				E281B9161C039BE4000DADBA /* GesturesExampleViewController.swift in Sources */,
 				E2F13EB91C04A3810029E7E4 /* ArrayExtension.swift in Sources */,
+				E23B1D961C06517800C986BF /* NSMutableAttributedStringExtension.swift in Sources */,
 				E281B92C1C03A1F1000DADBA /* BlockLongPressGestureRecognizer.swift in Sources */,
 				E2049E3F1C044EDD006D10E7 /* LocalizablesExampleViewController.swift in Sources */,
 				E29E73461C04BA6300F059F1 /* NSBundleExtension.swift in Sources */,
