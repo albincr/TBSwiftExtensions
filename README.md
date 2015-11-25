@@ -195,7 +195,7 @@ let myCustomView: CustomView = UIView.fromNib()
 let myCustomView = UIView.fromNib() as? CustomView
 ```
 
-### NSMutableAttributedString (iOS only)
+### NSMutableAttributedString (iOS, OSX, tvOS)
 
 **Colorize each occurence**
 

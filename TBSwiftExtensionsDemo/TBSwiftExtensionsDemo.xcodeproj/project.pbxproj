@@ -60,6 +60,8 @@
 		E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF81C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF91C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
+		E2C9AADA1C065833004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */; };
+		E2C9AADC1C065835004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */; };
 		E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EBF1C0392E40065268F /* Assets.xcassets */; };
 		E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
 		E2D92EE11C03946B0065268F /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
@@ -88,7 +90,7 @@
 		E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtension.swift; sourceTree = "<group>"; };
 		E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtensionTests.swift; sourceTree = "<group>"; };
 		E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringExampleViewController.swift; sourceTree = "<group>"; };
-		E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
+		E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSMutableAttributedStringExtension.swift; path = ios/NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
 		E23B1D991C06527900C986BF /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				E29E733E1C04B32F00F059F1 /* StringExtension.swift */,
 				E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */,
 				E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */,
+				E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */,
 			);
 			name = TBSwiftExtensions;
 			path = ../TBSwiftExtensions;
@@ -299,7 +302,6 @@
 				E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */,
 				E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */,
 				E29E735C1C05119900F059F1 /* UIImageExtension.swift */,
-				E23B1D941C06514500C986BF /* NSMutableAttributedStringExtension.swift */,
 				E23B1D991C06527900C986BF /* NSObjectExtension.swift */,
 			);
 			path = ios;
@@ -543,6 +545,7 @@
 				E2F13EBA1C04A3BC0029E7E4 /* ArrayExtension.swift in Sources */,
 				E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */,
 				E23B1D8C1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
+				E2C9AADA1C065833004CA36A /* NSMutableAttributedStringExtension.swift in Sources */,
 				E2B10BF81C04AB2F00C2811B /* DictionaryExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +562,7 @@
 				E281B9251C039DA0000DADBA /* AppDelegate.swift in Sources */,
 				E23B1D8D1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */,
+				E2C9AADC1C065835004CA36A /* NSMutableAttributedStringExtension.swift in Sources */,
 				E2B10BF91C04AB2F00C2811B /* DictionaryExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

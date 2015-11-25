@@ -9,7 +9,7 @@ s.description      	= "Swift extensions / helpers used in most of the projects, 
 s.homepage         	= "https://github.com/tbaranes/TBSwiftExtensions"
 s.license      		= { :type => "MIT", :file => "LICENSE" }
 s.author           	= { "Tom Baranes" => "tom.baranes@gmail.com" }
-s.source           	= { :git => "https://github.com/tbaranes/TBSwiftExtensions.git", :tag => s.version.to_s }
+s.source           	= { :git => "https://github.com/tbaranes/TBSwiftExtensions.git", :tag => "#{s.version}" }
 
 # ―――  Spec tech  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
