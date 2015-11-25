@@ -15,7 +15,11 @@ extension NSObject {
     }
     
     public static var className: String {
-        return NSStringFromClass(self)
+        return stringFromClass(self)
     }
-    
+ 
+}
+
+public func stringFromClass(aClass: AnyClass) -> String {
+    return NSStringFromClass(aClass).componentsSeparatedByString(".").last!
 }

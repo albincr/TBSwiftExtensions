@@ -15,10 +15,10 @@ class VariousDataViewController: UIViewController {
     // UIScreen
     // Run
     // Colors
+    // fromNib
+    // NSMutableAttributedstring
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIScreen.screenOrientation()
-        UIScreen.screenWidth
-        UIScreen.screenHeight
+
     }
 }

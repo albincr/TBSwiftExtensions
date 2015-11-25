@@ -176,6 +176,92 @@ print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 ```
 let image = UIImage.imageWithColor(UIColor.greenColor())
 ```
+### UIView extensions (iOS only)
+
+**Automates your localizables**
+
+```
+aView.convertLocalizables()
+```
+
+It will iterate on all the subviews of the view, and use the text / placeholder as key in `NSLocalizedString`.
+By settings your localizable key in your xib / storyboard, all yours string will be automatically translated just by calling the above method.
+
+**Instantiate view from nib programatically**
+
+```
+let myCustomView: CustomView = UIView.fromNib()
+// or
+let myCustomView = UIView.fromNib() as? CustomView
+```
+
+### NSMutableAttributedString
+
+**Colorize each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextcolor("hello world", color: UIColor.yellowColor(), forOccurences: "llo")
+
+// OR
+
+let attrStr: NSMutableAttributedString = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextColor(UIColor.yellowColor(), forOccurences: "llo")
+```
+
+**Colorize everything after an occurence**
+
+```
+let attrStr = NSMutableAttributedString.setTextcolor("Hello world", color: UIColor.yellowColor(), afterOcurrence: "llo")
+
+// OR 
+        
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextColor(UIColor.yellowColor(), afterOcurrence: "llo")
+```
+
+**Strike each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", forOccurences: "llo")
+
+// OR 
+        
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextStrike(forOccurences: "llo")
+```
+
+**Strike everything after an occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", afterOcurrence: "llo")
+
+// OR 
+        
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextStrike(afterOcurrence: "llo")
+```
+
+**Underline each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", forOccurences: "llo")
+
+// OR 
+        
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextUnderline(forOccurences: "llo")
+```
+
+**Underline everything after an occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", afterOcurrence: "llo")
+
+// OR 
+        
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextUnderline(afterOcurrence: "llo")
+```
 
 ### Occupiable
 
@@ -212,17 +298,6 @@ let notificationProxy = BlockNotification("aNotificationName": name) { notificat
 NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", object: "Hello world")
 
 ```
-
-### Localizables (iOS only)
-
-```
-aView.convertLocalizables()
-```
-
-**How is it working?**
-
-It iterates on all the subviews of the view, and use the text / placeholder as key in `NSLocalizedString`.
-By settings your localizable key in your xib / storyboard, all yours string will be automatically translated just by calling the above method.
 
 ###Gestures (iOS only)
 

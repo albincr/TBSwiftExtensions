@@ -11,7 +11,9 @@ import UIKit
 
 extension UIView {
     
-    func convertLocalizables() {
+    // MARK - Localizables
+    
+    public func convertLocalizables() {
         if subviews.count == 0 {
             return
         }
@@ -40,5 +42,30 @@ extension UIView {
                 aSubview.convertLocalizables()
             }
         }
+    }
+    
+    // MARK - View from nib
+    
+    public class func fromNib<T: UIView>(nibNameOrNil: String? = nil) -> T {
+        let v: T? = fromNib(nibNameOrNil)
+        return v!
+    }
+    
+    public class func fromNib<T: UIView>(nibNameOrNil: String? = nil) -> T? {
+        var view: T?
+        let name: String
+        if let nibName = nibNameOrNil {
+            name = nibName
+        } else {
+            name = T.className
+        }
+        
+        let nibViews = NSBundle.mainBundle().loadNibNamed(name, owner: nil, options: nil)
+        for v in nibViews {
+            if let tog = v as? T {
+                view = tog
+            }
+        }
+        return view
     }
 }
