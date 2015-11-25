@@ -33,7 +33,7 @@ pod 'TBSwiftExtensions'
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
 
-### Array extensions
+### Array extensions (iOS, OSX, tvOS)
 
 **Remove an object**
 
@@ -45,7 +45,7 @@ isObjectRemoved = array.removeObject(5)
 print(isObjectRemoved) // false
 ```
 
-### Dictionary extensions
+### Dictionary extensions (iOS, OSX, tvOS)
 
 **Merge several dictionaries**
 
@@ -57,7 +57,7 @@ finalDic.merge(dic1, dic2)
 print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
 ```
 
-### NSObject extension
+### NSObject extension (iOS, OSX, tvOS)
 
 **Get the class name of a `NSObject`**
 
@@ -67,7 +67,7 @@ print(vc.className) // UIViewController
 print(UIViewController.className) // UIViewController
 ```
 
-### String extension
+### String extension (iOS, OSX, tvOS)
 
 **Length**
 
@@ -110,7 +110,7 @@ var aString = "test@"
 print(aString.isEmail) // false
 ```
 
-### NSUserDefaults extension
+### NSUserDefaults extension (iOS, OSX, tvOS)
 
 **Is key set in the user defaults**
 
@@ -169,7 +169,7 @@ print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
 print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 ```
 
-### UIImage extension
+### UIImage extension (iOS only)
 
 **Create an image from a color**
 
@@ -195,7 +195,7 @@ let myCustomView: CustomView = UIView.fromNib()
 let myCustomView = UIView.fromNib() as? CustomView
 ```
 
-### NSMutableAttributedString
+### NSMutableAttributedString (iOS only)
 
 **Colorize each occurence**
 
@@ -263,7 +263,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextUnderline(afterOcurrence: "llo")
 ```
 
-### Occupiable
+### Occupiable (iOS, OSX, tvOS)
 
 The following use cases works for String Array, Dictionary, and Set
 
