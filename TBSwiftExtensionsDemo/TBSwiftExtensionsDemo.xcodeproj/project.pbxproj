@@ -14,6 +14,7 @@
 		E23B1D8D1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8E1C062E9600C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D901C062EA400C986BF /* NSRangeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */; };
+		E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */; };
 		E281B9001C039989000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9011C03998A000DADBA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */; };
 		E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
@@ -54,7 +55,7 @@
 		E29E73421C04B32F00F059F1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
 		E29E73441C04B42800F059F1 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73431C04B42800F059F1 /* StringExtensionTests.swift */; };
 		E29E73461C04BA6300F059F1 /* NSBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */; };
-		E29E734A1C04BD0000F059F1 /* VariousDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73491C04BD0000F059F1 /* VariousDataViewController.swift */; };
+		E29E734A1C04BD0000F059F1 /* OthersExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73491C04BD0000F059F1 /* OthersExampleViewController.swift */; };
 		E29E734C1C04BDFD00F059F1 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */; };
 		E29E73561C04CC2D00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
 		E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
@@ -93,6 +94,7 @@
 		E23B1D861C0629E300C986BF /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSMutableAttributedString.swift; path = ../NSMutableAttributedString.swift; sourceTree = "<group>"; };
 		E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtension.swift; sourceTree = "<group>"; };
 		E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtensionTests.swift; sourceTree = "<group>"; };
+		E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringExampleViewController.swift; sourceTree = "<group>"; };
 		E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E281B9111C039BE4000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 		E29E733E1C04B32F00F059F1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E29E73431C04B42800F059F1 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
 		E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundleExtension.swift; sourceTree = "<group>"; };
-		E29E73491C04BD0000F059F1 /* VariousDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariousDataViewController.swift; sourceTree = "<group>"; };
+		E29E73491C04BD0000F059F1 /* OthersExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersExampleViewController.swift; sourceTree = "<group>"; };
 		E29E734B1C04BDFD00F059F1 /* UIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
 		E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
 		E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsExtensionTests.swift; sourceTree = "<group>"; };
@@ -180,7 +182,8 @@
 				E2049E3E1C044EDD006D10E7 /* LocalizablesExampleViewController.swift */,
 				E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */,
 				E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */,
-				E29E73491C04BD0000F059F1 /* VariousDataViewController.swift */,
+				E29E73491C04BD0000F059F1 /* OthersExampleViewController.swift */,
+				E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */,
 				E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */,
 				E23B1D871C0629E300C986BF /* NSMutableAttributedString.swift in Sources */,
@@ -495,7 +499,7 @@
 				E29E733F1C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E2D92EE11C03946B0065268F /* OccupiableProtocol.swift in Sources */,
 				E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */,
-				E29E734A1C04BD0000F059F1 /* VariousDataViewController.swift in Sources */,
+				E29E734A1C04BD0000F059F1 /* OthersExampleViewController.swift in Sources */,
 				E29E734C1C04BDFD00F059F1 /* UIScreenExtension.swift in Sources */,
 				E29E73561C04CC2D00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */,
