@@ -38,7 +38,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/tbaranes/TBSwiftExtensions.git", majorVersion: 1.2.0)
+        .Package(url: "https://github.com/tbaranes/TBSwiftExtensions.git", majorVersion: 1.3.0)
     ]
 )
 ```
