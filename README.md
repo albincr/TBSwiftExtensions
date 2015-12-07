@@ -29,6 +29,20 @@ use_frameworks!
 pod 'TBSwiftExtensions'
 ```
 
+###Swift Package Manager
+
+You can use [The Swift Package Manager](https://swift.org/package-manager) to install `TBSwiftExtensions` by adding the proper description to your `Package.swift` file:
+
+```
+import PackageDescription
+
+let package = Package(
+    dependencies: [
+        .Package(url: "https://github.com/tbaranes/TBSwiftExtensions.git", majorVersion: 0.2.0)
+    ]
+)
+```
+
 #Usage
 
 Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
