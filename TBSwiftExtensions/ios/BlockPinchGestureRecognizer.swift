@@ -6,24 +6,20 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
-#if os(iOS)
+import UIKit
+
+class BlockPinchGestureRecognizer: UIPinchGestureRecognizer {
     
-    import UIKit
+    private var pinchAction: ((UIPinchGestureRecognizer) -> Void)?
     
-    class BlockPinchGestureRecognizer: UIPinchGestureRecognizer {
-        
-        private var pinchAction: ((UIPinchGestureRecognizer) -> Void)?
-        
-        internal convenience init (pinchAction: ((UIPinchGestureRecognizer) -> Void)?) {
-            self.init()
-            self.pinchAction = pinchAction
-            self.addTarget(self, action: "handlePinch:")
-        }
-        
-        func handlePinch(pinch: UIPinchGestureRecognizer) {
-            pinchAction?(pinch)
-        }
-        
+    internal convenience init (pinchAction: ((UIPinchGestureRecognizer) -> Void)?) {
+        self.init()
+        self.pinchAction = pinchAction
+        self.addTarget(self, action: "handlePinch:")
     }
     
-#endif
+    func handlePinch(pinch: UIPinchGestureRecognizer) {
+        pinchAction?(pinch)
+    }
+    
+}
