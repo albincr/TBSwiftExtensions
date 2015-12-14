@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 s.name            	= "TBSwiftExtensions"
-s.version          	= "0.1.2"
+s.version          	= "0.1.3"
 s.summary          	= "Swift extensions / helpers used in most of the projects"
 s.description      	= "Swift extensions / helpers used in most of the projects, support iOS, OSX and tvOS"
 s.homepage         	= "https://github.com/tbaranes/TBSwiftExtensions"
@@ -18,8 +18,8 @@ s.tvos.deployment_target 	= '9.0'
 s.osx.deployment_target 	= '10.10'
 
 s.requires_arc 	   			= true
-s.source_files				= 'TBSwiftExtensions/*.swift'
-s.ios.source_files			= 'TBSwiftExtensions/ios/*.swift' 
-s.osx.source_files			= 'TBSwiftExtensions/osx/*.swift' 
+s.source_files				= 'Sources/*.swift'
+s.ios.source_files			= 'Sources/ios/*.swift' 
+s.osx.source_files			= 'Sources/osx/*.swift' 
 
 end
