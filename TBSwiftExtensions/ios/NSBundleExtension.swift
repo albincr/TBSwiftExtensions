@@ -6,6 +6,8 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
+#if os(iOS)
+    
 import Foundation
 
 extension NSBundle {
@@ -19,3 +21,5 @@ extension NSBundle {
     }
     
 }
+    
+#endif

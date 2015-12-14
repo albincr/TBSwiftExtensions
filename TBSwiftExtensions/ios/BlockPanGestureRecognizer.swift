@@ -6,6 +6,8 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
+#if os(iOS)
+    
 import UIKit
 
 class BlockPanGestureRecognizer: UIPanGestureRecognizer {
@@ -24,3 +26,5 @@ class BlockPanGestureRecognizer: UIPanGestureRecognizer {
     }
     
 }
+
+#endif
