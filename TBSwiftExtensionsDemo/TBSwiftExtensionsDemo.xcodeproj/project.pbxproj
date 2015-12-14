@@ -277,7 +277,7 @@
 				E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */,
 			);
 			name = TBSwiftExtensions;
-			path = ../TBSwiftExtensions;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		E2D92EEA1C0395320065268F /* TBSwiftExtensionDemoOSX */ = {
