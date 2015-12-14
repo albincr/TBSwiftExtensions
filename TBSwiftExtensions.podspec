@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 s.name            	= "TBSwiftExtensions"
-s.version          	= "0.1.3"
+s.version          	= "0.1.4"
 s.summary          	= "Swift extensions / helpers used in most of the projects"
 s.description      	= "Swift extensions / helpers used in most of the projects, support iOS, OSX and tvOS"
 s.homepage         	= "https://github.com/tbaranes/TBSwiftExtensions"
