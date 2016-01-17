@@ -185,8 +185,7 @@
 				E29E73491C04BD0000F059F1 /* OthersExampleViewController.swift */,
 				E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */,
 			);
-			name = Classes;
-			path = ../../../../TBSwiftExtensions/Demo/iOS/Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E281B9171C039BF7000DADBA /* Classes */ = {
@@ -196,8 +195,7 @@
 				E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */,
 				E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */,
 			);
-			name = Classes;
-			path = ../../../../TBSwiftExtensions/Demo/OSX/Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E281B9221C039DA0000DADBA /* Classes */ = {
@@ -207,8 +205,7 @@
 				E281B9231C039DA0000DADBA /* AppDelegate.swift */,
 				E281B9241C039DA0000DADBA /* ViewController.swift */,
 			);
-			name = Classes;
-			path = ../../../../TBSwiftExtensions/Demo/tvOS/Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E28E34DC1C0475EC004CD4C9 /* Classes */ = {
@@ -256,8 +253,7 @@
 				E2D92EC41C0392E40065268F /* Info.plist */,
 				E2C1DA591C4BDD9D0083ACB8 /* Localizable.strings */,
 			);
-			name = iOS;
-			path = ../../AudioPlayer/Demo/Demo/iOS;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		E2D92ECC1C0392E40065268F /* Tests */ = {
@@ -295,7 +291,7 @@
 				E2D92EF41C0395320065268F /* Info.plist */,
 			);
 			name = "OS X";
-			path = "../../AudioPlayer/Demo/Demo/OS X";
+			path = OSX;
 			sourceTree = "<group>";
 		};
 		E2D92EFC1C0396D80065268F /* ios */ = {
@@ -329,8 +325,7 @@
 				E2D92F0E1C0397060065268F /* Assets.xcassets */,
 				E2D92F101C0397060065268F /* Info.plist */,
 			);
-			name = tvOS;
-			path = ../../AudioPlayer/Demo/Demo/tvOS;
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
