@@ -1,5 +1,9 @@
 #TBSwiftExtensions
 
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/TBSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/TBSwiftExtensions.svg)
+[![Platform](https://img.shields.io/cocoapods/p/TBSwiftExtensions.svg?style=flat)](http://cocoadocs.org/docsets/TBSwiftExtensions)
+[![License](https://img.shields.io/cocoapods/l/TBSwiftExtensions.svg?style=flat)](http://cocoapods.org/pods/TBSwiftExtensions)
+
 TBSwiftExtensions is a delightful iOS, OSX and tvOS library.
 
 The goal of this library is to provide useful extensions / helpers that can be used anywhere quickly and easily in order to reduce the code used for a same task. 
