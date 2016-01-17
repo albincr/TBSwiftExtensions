@@ -1,5 +1,6 @@
 #TBSwiftExtensions
 
+[![CI Status](https://travis-ci.org/tbaranes/TBSwiftExtensions.svg)](https://travis-ci.org/tbaranes/TBSwiftExtensions)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/TBSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/TBSwiftExtensions.svg)
 [![Platform](https://img.shields.io/cocoapods/p/TBSwiftExtensions.svg?style=flat)](http://cocoadocs.org/docsets/TBSwiftExtensions)
 [![License](https://img.shields.io/cocoapods/l/TBSwiftExtensions.svg?style=flat)](http://cocoapods.org/pods/TBSwiftExtensions)
