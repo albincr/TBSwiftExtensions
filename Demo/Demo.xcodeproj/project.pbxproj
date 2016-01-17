@@ -19,13 +19,9 @@
 		E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
 		E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
 		E281B9051C039A6B000DADBA /* BlockTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */; };
-		E281B90B1C039B7C000DADBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E281B90D1C039B7C000DADBA /* Localizable.strings */; };
 		E281B9141C039BE4000DADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9111C039BE4000DADBA /* AppDelegate.swift */; };
 		E281B9151C039BE4000DADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E281B9121C039BE4000DADBA /* Main.storyboard */; };
 		E281B9161C039BE4000DADBA /* GesturesExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */; };
-		E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9181C039C22000DADBA /* AppDelegate.swift */; };
-		E281B91B1C039C22000DADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9191C039C22000DADBA /* ViewController.swift */; };
-		E281B9211C039D18000DADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E281B9201C039D18000DADBA /* Main.storyboard */; };
 		E281B9251C039DA0000DADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9231C039DA0000DADBA /* AppDelegate.swift */; };
 		E281B9261C039DA0000DADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B9241C039DA0000DADBA /* ViewController.swift */; };
 		E281B9281C039DA8000DADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E281B9271C039DA8000DADBA /* Main.storyboard */; };
@@ -59,6 +55,14 @@
 		E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF81C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E2B10BF91C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
+		E2C1DA5B1C4BDD9D0083ACB8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C1DA591C4BDD9D0083ACB8 /* Localizable.strings */; };
+		E2C1DA5F1C4BDDDD0083ACB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */; };
+		E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */; };
+		E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */; };
+		E2C1DA621C4BDF140083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EC41C0392E40065268F /* Info.plist */; };
+		E2C1DA631C4BDF210083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EF41C0395320065268F /* Info.plist */; };
+		E2C1DA641C4BDF250083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92F101C0397060065268F /* Info.plist */; };
+		E2C1DA651C4BDF290083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92ECF1C0392E40065268F /* Info.plist */; };
 		E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADF1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AAE01C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
@@ -92,13 +96,9 @@
 		E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringExampleViewController.swift; sourceTree = "<group>"; };
 		E23B1D991C06527900C986BF /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		E281B9041C039A6B000DADBA /* BlockTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapGestureRecognizer.swift; sourceTree = "<group>"; };
-		E281B90C1C039B7C000DADBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E281B9111C039BE4000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E281B9121C039BE4000DADBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E281B9131C039BE4000DADBA /* GesturesExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturesExampleViewController.swift; sourceTree = "<group>"; };
-		E281B9181C039C22000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
-		E281B9191C039C22000DADBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
-		E281B9201C039D18000DADBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/Main.storyboard; sourceTree = "<group>"; };
 		E281B9231C039DA0000DADBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E281B9241C039DA0000DADBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E281B9271C039DA8000DADBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -119,19 +119,23 @@
 		E29E735C1C05119900F059F1 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensionTests.swift; sourceTree = "<group>"; };
+		E2C1DA5A1C4BDD9D0083ACB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = iOS/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
-		E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionsDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D92EB51C0392E40065268F /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EBF1C0392E40065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92EC41C0392E40065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2D92EC91C0392E40065268F /* TBSwiftExtensionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBSwiftExtensionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D92EC91C0392E40065268F /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92ECF1C0392E40065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D92EDC1C03946B0065268F /* BlockNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNotification.swift; sourceTree = "<group>"; };
 		E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupiableProtocol.swift; sourceTree = "<group>"; };
-		E2D92EE91C0395320065268F /* TBSwiftExtensionDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D92EE91C0395320065268F /* osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EEF1C0395320065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92EF41C0395320065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		E2D92F051C0397050065268F /* TBSwiftExtensionsTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSwiftExtensionsTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D92F051C0397050065268F /* tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92F0E1C0397060065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D92F101C0397060065268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
@@ -187,11 +191,11 @@
 		E281B9171C039BF7000DADBA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E281B9201C039D18000DADBA /* Main.storyboard */,
-				E281B9181C039C22000DADBA /* AppDelegate.swift */,
-				E281B9191C039C22000DADBA /* ViewController.swift */,
+				E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */,
+				E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */,
+				E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E281B9221C039DA0000DADBA /* Classes */ = {
@@ -222,10 +226,10 @@
 			isa = PBXGroup;
 			children = (
 				E2D92EDB1C03946B0065268F /* TBSwiftExtensions */,
-				E2D92EB71C0392E40065268F /* TBSwiftExtensionsDemoIOS */,
-				E2D92EEA1C0395320065268F /* TBSwiftExtensionDemoOSX */,
-				E2D92F061C0397050065268F /* TBSwiftExtensionsTVOS */,
-				E2D92ECC1C0392E40065268F /* TBSwiftExtensionsDemoTests */,
+				E2D92EB71C0392E40065268F /* iOS */,
+				E2D92EEA1C0395320065268F /* OS X */,
+				E2D92F061C0397050065268F /* tvOS */,
+				E2D92ECC1C0392E40065268F /* Tests */,
 				E2D92EB61C0392E40065268F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -233,33 +237,32 @@
 		E2D92EB61C0392E40065268F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */,
-				E2D92EC91C0392E40065268F /* TBSwiftExtensionsDemoTests.xctest */,
-				E2D92EE91C0395320065268F /* TBSwiftExtensionDemoOSX.app */,
-				E2D92F051C0397050065268F /* TBSwiftExtensionsTVOS.app */,
+				E2D92EB51C0392E40065268F /* ios.app */,
+				E2D92EC91C0392E40065268F /* Tests.xctest */,
+				E2D92EE91C0395320065268F /* osx.app */,
+				E2D92F051C0397050065268F /* tvos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E2D92EB71C0392E40065268F /* TBSwiftExtensionsDemoIOS */ = {
+		E2D92EB71C0392E40065268F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E281B9101C039BE4000DADBA /* Classes */,
 				E2D92EBF1C0392E40065268F /* Assets.xcassets */,
 				E2D92EC41C0392E40065268F /* Info.plist */,
-				E281B90D1C039B7C000DADBA /* Localizable.strings */,
+				E2C1DA591C4BDD9D0083ACB8 /* Localizable.strings */,
 			);
-			name = TBSwiftExtensionsDemoIOS;
-			path = TBSwiftExtensionsDemo;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		E2D92ECC1C0392E40065268F /* TBSwiftExtensionsDemoTests */ = {
+		E2D92ECC1C0392E40065268F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				E28E34DC1C0475EC004CD4C9 /* Classes */,
 				E2D92ECF1C0392E40065268F /* Info.plist */,
 			);
-			path = TBSwiftExtensionsDemoTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		E2D92EDB1C03946B0065268F /* TBSwiftExtensions */ = {
@@ -280,14 +283,15 @@
 			path = ../Sources;
 			sourceTree = "<group>";
 		};
-		E2D92EEA1C0395320065268F /* TBSwiftExtensionDemoOSX */ = {
+		E2D92EEA1C0395320065268F /* OS X */ = {
 			isa = PBXGroup;
 			children = (
 				E281B9171C039BF7000DADBA /* Classes */,
 				E2D92EEF1C0395320065268F /* Assets.xcassets */,
 				E2D92EF41C0395320065268F /* Info.plist */,
 			);
-			path = TBSwiftExtensionDemoOSX;
+			name = "OS X";
+			path = OSX;
 			sourceTree = "<group>";
 		};
 		E2D92EFC1C0396D80065268F /* ios */ = {
@@ -314,22 +318,22 @@
 			path = osx;
 			sourceTree = "<group>";
 		};
-		E2D92F061C0397050065268F /* TBSwiftExtensionsTVOS */ = {
+		E2D92F061C0397050065268F /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				E281B9221C039DA0000DADBA /* Classes */,
 				E2D92F0E1C0397060065268F /* Assets.xcassets */,
 				E2D92F101C0397060065268F /* Info.plist */,
 			);
-			path = TBSwiftExtensionsTVOS;
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2D92EB41C0392E40065268F /* TBSwiftExtensionsDemoIOS */ = {
+		E2D92EB41C0392E40065268F /* ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2D92ED21C0392E40065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsDemoIOS" */;
+			buildConfigurationList = E2D92ED21C0392E40065268F /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
 				E2D92EB11C0392E40065268F /* Sources */,
 				E2D92EB21C0392E40065268F /* Frameworks */,
@@ -339,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = TBSwiftExtensionsDemoIOS;
+			name = ios;
 			productName = TBSwiftExtensionsDemo;
-			productReference = E2D92EB51C0392E40065268F /* TBSwiftExtensionsDemoIOS.app */;
+			productReference = E2D92EB51C0392E40065268F /* ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2D92EC81C0392E40065268F /* TBSwiftExtensionsDemoTests */ = {
+		E2D92EC81C0392E40065268F /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2D92ED51C0392E40065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsDemoTests" */;
+			buildConfigurationList = E2D92ED51C0392E40065268F /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				E2D92EC51C0392E40065268F /* Sources */,
 				E2D92EC61C0392E40065268F /* Frameworks */,
@@ -357,14 +361,14 @@
 			dependencies = (
 				E2D92ECB1C0392E40065268F /* PBXTargetDependency */,
 			);
-			name = TBSwiftExtensionsDemoTests;
+			name = Tests;
 			productName = TBSwiftExtensionsDemoTests;
-			productReference = E2D92EC91C0392E40065268F /* TBSwiftExtensionsDemoTests.xctest */;
+			productReference = E2D92EC91C0392E40065268F /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2D92EE81C0395320065268F /* TBSwiftExtensionDemoOSX */ = {
+		E2D92EE81C0395320065268F /* osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2D92EF51C0395320065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionDemoOSX" */;
+			buildConfigurationList = E2D92EF51C0395320065268F /* Build configuration list for PBXNativeTarget "osx" */;
 			buildPhases = (
 				E2D92EE51C0395320065268F /* Sources */,
 				E2D92EE61C0395320065268F /* Frameworks */,
@@ -374,14 +378,14 @@
 			);
 			dependencies = (
 			);
-			name = TBSwiftExtensionDemoOSX;
+			name = osx;
 			productName = TBSwiftExtensionDemoOSX;
-			productReference = E2D92EE91C0395320065268F /* TBSwiftExtensionDemoOSX.app */;
+			productReference = E2D92EE91C0395320065268F /* osx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2D92F041C0397050065268F /* TBSwiftExtensionsTVOS */ = {
+		E2D92F041C0397050065268F /* tvos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2D92F111C0397060065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsTVOS" */;
+			buildConfigurationList = E2D92F111C0397060065268F /* Build configuration list for PBXNativeTarget "tvos" */;
 			buildPhases = (
 				E2D92F011C0397050065268F /* Sources */,
 				E2D92F021C0397050065268F /* Frameworks */,
@@ -391,9 +395,9 @@
 			);
 			dependencies = (
 			);
-			name = TBSwiftExtensionsTVOS;
+			name = tvos;
 			productName = TBSwiftExtensionsTVOS;
-			productReference = E2D92F051C0397050065268F /* TBSwiftExtensionsTVOS.app */;
+			productReference = E2D92F051C0397050065268F /* tvos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -421,7 +425,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2D92EB01C0392E40065268F /* Build configuration list for PBXProject "TBSwiftExtensionsDemo" */;
+			buildConfigurationList = E2D92EB01C0392E40065268F /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -433,10 +437,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2D92EB41C0392E40065268F /* TBSwiftExtensionsDemoIOS */,
-				E2D92EE81C0395320065268F /* TBSwiftExtensionDemoOSX */,
-				E2D92F041C0397050065268F /* TBSwiftExtensionsTVOS */,
-				E2D92EC81C0392E40065268F /* TBSwiftExtensionsDemoTests */,
+				E2D92EB41C0392E40065268F /* ios */,
+				E2D92EE81C0395320065268F /* osx */,
+				E2D92F041C0397050065268F /* tvos */,
+				E2D92EC81C0392E40065268F /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -446,8 +450,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C1DA621C4BDF140083ACB8 /* Info.plist in Resources */,
 				E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */,
-				E281B90B1C039B7C000DADBA /* Localizable.strings in Resources */,
+				E2C1DA5B1C4BDD9D0083ACB8 /* Localizable.strings in Resources */,
 				E281B9151C039BE4000DADBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +461,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C1DA651C4BDF290083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +470,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D92EF01C0395320065268F /* Assets.xcassets in Resources */,
-				E281B9211C039D18000DADBA /* Main.storyboard in Resources */,
+				E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */,
+				E2C1DA631C4BDF210083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +481,7 @@
 			files = (
 				E2D92F0F1C0397060065268F /* Assets.xcassets in Resources */,
 				E281B9281C039DA8000DADBA /* Main.storyboard in Resources */,
+				E2C1DA641C4BDF250083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,13 +545,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E281B91B1C039C22000DADBA /* ViewController.swift in Sources */,
+				E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */,
 				E2D92EFA1C03955A0065268F /* BlockNotification.swift in Sources */,
 				E29E73401C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */,
+				E2C1DA5F1C4BDDDD0083ACB8 /* AppDelegate.swift in Sources */,
 				E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2F13EBA1C04A3BC0029E7E4 /* ArrayExtension.swift in Sources */,
-				E281B91A1C039C22000DADBA /* AppDelegate.swift in Sources */,
 				E23B1D8C1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E2C9AADF1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */,
 				E2B10BF81C04AB2F00C2811B /* DictionaryExtension.swift in Sources */,
@@ -572,16 +580,16 @@
 /* Begin PBXTargetDependency section */
 		E2D92ECB1C0392E40065268F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2D92EB41C0392E40065268F /* TBSwiftExtensionsDemoIOS */;
+			target = E2D92EB41C0392E40065268F /* ios */;
 			targetProxy = E2D92ECA1C0392E40065268F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E281B90D1C039B7C000DADBA /* Localizable.strings */ = {
+		E2C1DA591C4BDD9D0083ACB8 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E281B90C1C039B7C000DADBA /* en */,
+				E2C1DA5A1C4BDD9D0083ACB8 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -675,8 +683,8 @@
 		E2D92ED31C0392E40065268F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TBSwiftExtensionsDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -686,8 +694,8 @@
 		E2D92ED41C0392E40065268F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TBSwiftExtensionsDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -702,7 +710,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBSwiftExtensionsDemoIOS.app/TBSwiftExtensionsDemoIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Debug;
 		};
@@ -714,19 +722,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBSwiftExtensionsDemoIOS.app/TBSwiftExtensionsDemoIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Release;
 		};
 		E2D92EF61C0395320065268F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TBSwiftExtensionDemoOSX/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionDemoOSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -736,12 +743,11 @@
 		E2D92EF71C0395320065268F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TBSwiftExtensionDemoOSX/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionDemoOSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -753,7 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = TBSwiftExtensionsTVOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsTVOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -768,7 +774,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = TBSwiftExtensionsTVOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tombaranes.TBSwiftExtensionsTVOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -781,7 +787,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2D92EB01C0392E40065268F /* Build configuration list for PBXProject "TBSwiftExtensionsDemo" */ = {
+		E2D92EB01C0392E40065268F /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2D92ED01C0392E40065268F /* Debug */,
@@ -790,7 +796,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2D92ED21C0392E40065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsDemoIOS" */ = {
+		E2D92ED21C0392E40065268F /* Build configuration list for PBXNativeTarget "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2D92ED31C0392E40065268F /* Debug */,
@@ -799,7 +805,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2D92ED51C0392E40065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsDemoTests" */ = {
+		E2D92ED51C0392E40065268F /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2D92ED61C0392E40065268F /* Debug */,
@@ -808,7 +814,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2D92EF51C0395320065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionDemoOSX" */ = {
+		E2D92EF51C0395320065268F /* Build configuration list for PBXNativeTarget "osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2D92EF61C0395320065268F /* Debug */,
@@ -817,7 +823,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2D92F111C0397060065268F /* Build configuration list for PBXNativeTarget "TBSwiftExtensionsTVOS" */ = {
+		E2D92F111C0397060065268F /* Build configuration list for PBXNativeTarget "tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2D92F121C0397060065268F /* Debug */,
