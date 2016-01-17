@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import TBSwiftExtensionsDemoIOS
 
 class NSObjectExtensionTests: XCTestCase {
     
@@ -26,10 +25,11 @@ class NSObjectExtensionTests: XCTestCase {
     
     // MARK -
     
+    #if os(iOS)
     func testClassName() {
         let vc = UIViewController()
         XCTAssertEqual(vc.className, "UIViewController")
         XCTAssertEqual(UIViewController.className, "UIViewController")
     }
-    
+    #endif
 }
