@@ -59,6 +59,10 @@
 		E2C1DA5F1C4BDDDD0083ACB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */; };
 		E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */; };
 		E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */; };
+		E2C1DA621C4BDF140083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EC41C0392E40065268F /* Info.plist */; };
+		E2C1DA631C4BDF210083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92EF41C0395320065268F /* Info.plist */; };
+		E2C1DA641C4BDF250083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92F101C0397060065268F /* Info.plist */; };
+		E2C1DA651C4BDF290083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92ECF1C0392E40065268F /* Info.plist */; };
 		E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADF1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AAE01C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
@@ -451,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C1DA621C4BDF140083ACB8 /* Info.plist in Resources */,
 				E2D92EC01C0392E40065268F /* Assets.xcassets in Resources */,
 				E2C1DA5B1C4BDD9D0083ACB8 /* Localizable.strings in Resources */,
 				E281B9151C039BE4000DADBA /* Main.storyboard in Resources */,
@@ -461,6 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C1DA651C4BDF290083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +476,7 @@
 			files = (
 				E2D92EF01C0395320065268F /* Assets.xcassets in Resources */,
 				E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */,
+				E2C1DA631C4BDF210083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +486,7 @@
 			files = (
 				E2D92F0F1C0397060065268F /* Assets.xcassets in Resources */,
 				E281B9281C039DA8000DADBA /* Main.storyboard in Resources */,
+				E2C1DA641C4BDF250083ACB8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
