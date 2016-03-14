@@ -9,36 +9,36 @@
 import Foundation
 #if os(iOS) || os (tvOS)
     import UIKit
-    typealias Color = UIColor
+    public  typealias TBColor = UIColor
 #elseif os(OSX)
     import Cocoa
-    typealias Color = NSColor
+    public typealias TBColor = NSColor
 #endif
 
 extension NSMutableAttributedString {
     
     // MARK - Colors
     
-    internal static func setTextColor(text: String, color: Color, afterOcurrence occurence: String) -> NSMutableAttributedString {
+    public static func setTextColor(text: String, color: TBColor, afterOcurrence occurence: String) -> NSMutableAttributedString {
         let attrStr = NSMutableAttributedString(string: text)
         attrStr.setTextColor(color, afterOcurrence: occurence)
         return attrStr
     }
     
-    internal static func setTextColor(text: String, color: Color, forOccurences searchString: String) -> NSMutableAttributedString {
+    public static func setTextColor(text: String, color: TBColor, forOccurences searchString: String) -> NSMutableAttributedString {
         let attrStr = NSMutableAttributedString(string: text)
         attrStr.setTextColor(color, forOccurences: searchString)
         return attrStr
     }
     
-    internal func setTextColor(color: Color, afterOcurrence occurence: String) {
+    public func setTextColor(color: TBColor, afterOcurrence occurence: String) {
         let range = NSRange(text: string, afterOccurence: occurence)
         if range.location != NSNotFound {
             setTextColor(color, range: range)
         }
     }
     
-    internal func setTextColor(color: Color, forOccurences searchString: String) {
+    public func setTextColor(color: TBColor, forOccurences searchString: String) {
         addAttributeForOccurence(searchString, value: color, funcAddingAttribute: setTextColor)
     }
     
