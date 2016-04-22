@@ -30,6 +30,9 @@
 		E281B92E1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92D1C03A37C000DADBA /* BlockSwipeGestureRecognizer.swift */; };
 		E281B9301C03A474000DADBA /* BlockPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */; };
 		E28B88911C03B00F00CBA57B /* NotificationsExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */; };
+		E2986E9D1CCAE82700D438A8 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986E9C1CCAE82700D438A8 /* IntExtension.swift */; };
+		E2986E9E1CCAE82700D438A8 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986E9C1CCAE82700D438A8 /* IntExtension.swift */; };
+		E2986E9F1CCAE82700D438A8 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986E9C1CCAE82700D438A8 /* IntExtension.swift */; };
 		E29E732D1C04B20200F059F1 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
 		E29E73361C04B29800F059F1 /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
 		E29E73371C04B2AC00F059F1 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */; };
@@ -60,39 +63,7 @@
 		E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */; };
 		E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */; };
 		E2C1DA651C4BDF290083ACB8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D92ECF1C0392E40065268F /* Info.plist */; };
-		E2C1DAA01C4C185C0083ACB8 /* tvosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA9F1C4C185C0083ACB8 /* tvosTests.swift */; };
-		E2C1DAAE1C4C18660083ACB8 /* osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DAAD1C4C18660083ACB8 /* osxTests.swift */; };
-		E2C1DAB51C4C18A90083ACB8 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
-		E2C1DAB61C4C18A90083ACB8 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EBF1C04A5D60029E7E4 /* ArrayExtensionTests.swift */; };
-		E2C1DAB71C4C18A90083ACB8 /* DictionaryExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */; };
-		E2C1DAB81C4C18A90083ACB8 /* NSObjectExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */; };
-		E2C1DAB91C4C18A90083ACB8 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73431C04B42800F059F1 /* StringExtensionTests.swift */; };
-		E2C1DABA1C4C18A90083ACB8 /* NSUserDefaultsExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */; };
-		E2C1DABB1C4C18A90083ACB8 /* NSRangeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */; };
-		E2C1DABC1C4C18AA0083ACB8 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
-		E2C1DABD1C4C18AA0083ACB8 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EBF1C04A5D60029E7E4 /* ArrayExtensionTests.swift */; };
-		E2C1DABE1C4C18AA0083ACB8 /* DictionaryExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */; };
-		E2C1DABF1C4C18AA0083ACB8 /* NSObjectExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */; };
-		E2C1DAC01C4C18AA0083ACB8 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73431C04B42800F059F1 /* StringExtensionTests.swift */; };
-		E2C1DAC11C4C18AA0083ACB8 /* NSUserDefaultsExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */; };
-		E2C1DAC21C4C18AA0083ACB8 /* NSRangeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */; };
 		E2C1DAC31C4C190A0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
-		E2C1DAC41C4C190B0083ACB8 /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
-		E2C1DAC51C4C190B0083ACB8 /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
-		E2C1DAC61C4C190B0083ACB8 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */; };
-		E2C1DAC71C4C190B0083ACB8 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
-		E2C1DAC81C4C190B0083ACB8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
-		E2C1DAC91C4C190B0083ACB8 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
-		E2C1DACA1C4C190B0083ACB8 /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
-		E2C1DACB1C4C190B0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
-		E2C1DACC1C4C190C0083ACB8 /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
-		E2C1DACD1C4C190C0083ACB8 /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
-		E2C1DACE1C4C190C0083ACB8 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */; };
-		E2C1DACF1C4C190C0083ACB8 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
-		E2C1DAD01C4C190C0083ACB8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
-		E2C1DAD11C4C190C0083ACB8 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
-		E2C1DAD21C4C190C0083ACB8 /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
-		E2C1DAD31C4C190C0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADF1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AAE01C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
@@ -110,20 +81,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E2C1DAA21C4C185C0083ACB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2D92EAD1C0392E40065268F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2D92F041C0397050065268F;
-			remoteInfo = tvos;
-		};
-		E2C1DAB01C4C18660083ACB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2D92EAD1C0392E40065268F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2D92EE81C0395320065268F;
-			remoteInfo = osx;
-		};
 		E2D92ECA1C0392E40065268F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2D92EAD1C0392E40065268F /* Project object */;
@@ -152,6 +109,7 @@
 		E281B92F1C03A474000DADBA /* BlockPinchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 		E28B88901C03B00F00CBA57B /* NotificationsExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsExampleTableViewController.swift; sourceTree = "<group>"; };
 		E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupiableTests.swift; sourceTree = "<group>"; };
+		E2986E9C1CCAE82700D438A8 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensionTests.swift; sourceTree = "<group>"; };
 		E29E733E1C04B32F00F059F1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E29E73431C04B42800F059F1 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
@@ -167,12 +125,6 @@
 		E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2C1DA9D1C4C185C0083ACB8 /* tvosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C1DA9F1C4C185C0083ACB8 /* tvosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvosTests.swift; sourceTree = "<group>"; };
-		E2C1DAA11C4C185C0083ACB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2C1DAAB1C4C18660083ACB8 /* osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C1DAAD1C4C18660083ACB8 /* osxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osxTests.swift; sourceTree = "<group>"; };
-		E2C1DAAF1C4C18660083ACB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
 		E2D92EB51C0392E40065268F /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D92EBF1C0392E40065268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -193,20 +145,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E2C1DA9A1C4C185C0083ACB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2C1DAA81C4C18660083ACB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E2D92EB21C0392E40065268F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,24 +224,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		E2C1DA9E1C4C185C0083ACB8 /* tvosTests */ = {
-			isa = PBXGroup;
-			children = (
-				E2C1DA9F1C4C185C0083ACB8 /* tvosTests.swift */,
-				E2C1DAA11C4C185C0083ACB8 /* Info.plist */,
-			);
-			path = tvosTests;
-			sourceTree = "<group>";
-		};
-		E2C1DAAC1C4C18660083ACB8 /* osxTests */ = {
-			isa = PBXGroup;
-			children = (
-				E2C1DAAD1C4C18660083ACB8 /* osxTests.swift */,
-				E2C1DAAF1C4C18660083ACB8 /* Info.plist */,
-			);
-			path = osxTests;
-			sourceTree = "<group>";
-		};
 		E2D92EAC1C0392E40065268F = {
 			isa = PBXGroup;
 			children = (
@@ -312,8 +232,6 @@
 				E2D92EEA1C0395320065268F /* OS X */,
 				E2D92F061C0397050065268F /* tvOS */,
 				E2D92ECC1C0392E40065268F /* Tests */,
-				E2C1DA9E1C4C185C0083ACB8 /* tvosTests */,
-				E2C1DAAC1C4C18660083ACB8 /* osxTests */,
 				E2D92EB61C0392E40065268F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -325,8 +243,6 @@
 				E2D92EC91C0392E40065268F /* iosTests.xctest */,
 				E2D92EE91C0395320065268F /* osx.app */,
 				E2D92F051C0397050065268F /* tvos.app */,
-				E2C1DA9D1C4C185C0083ACB8 /* tvosTests.xctest */,
-				E2C1DAAB1C4C18660083ACB8 /* osxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,6 +280,7 @@
 				E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */,
 				E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */,
 				E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */,
+				E2986E9C1CCAE82700D438A8 /* IntExtension.swift */,
 			);
 			name = TBSwiftExtensions;
 			path = ../Sources;
@@ -417,42 +334,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C1DA9C1C4C185C0083ACB8 /* tvosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2C1DAA41C4C185C0083ACB8 /* Build configuration list for PBXNativeTarget "tvosTests" */;
-			buildPhases = (
-				E2C1DA991C4C185C0083ACB8 /* Sources */,
-				E2C1DA9A1C4C185C0083ACB8 /* Frameworks */,
-				E2C1DA9B1C4C185C0083ACB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2C1DAA31C4C185C0083ACB8 /* PBXTargetDependency */,
-			);
-			name = tvosTests;
-			productName = tvosTests;
-			productReference = E2C1DA9D1C4C185C0083ACB8 /* tvosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E2C1DAAA1C4C18660083ACB8 /* osxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2C1DAB21C4C18660083ACB8 /* Build configuration list for PBXNativeTarget "osxTests" */;
-			buildPhases = (
-				E2C1DAA71C4C18660083ACB8 /* Sources */,
-				E2C1DAA81C4C18660083ACB8 /* Frameworks */,
-				E2C1DAA91C4C18660083ACB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2C1DAB11C4C18660083ACB8 /* PBXTargetDependency */,
-			);
-			name = osxTests;
-			productName = osxTests;
-			productReference = E2C1DAAB1C4C18660083ACB8 /* osxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		E2D92EB41C0392E40065268F /* ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D92ED21C0392E40065268F /* Build configuration list for PBXNativeTarget "ios" */;
@@ -532,12 +413,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Tom Baranes";
 				TargetAttributes = {
-					E2C1DA9C1C4C185C0083ACB8 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					E2C1DAAA1C4C18660083ACB8 = {
-						CreatedOnToolsVersion = 7.2;
-					};
 					E2D92EB41C0392E40065268F = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -567,28 +442,12 @@
 				E2D92EB41C0392E40065268F /* ios */,
 				E2D92EC81C0392E40065268F /* iosTests */,
 				E2D92EE81C0395320065268F /* osx */,
-				E2C1DAAA1C4C18660083ACB8 /* osxTests */,
 				E2D92F041C0397050065268F /* tvos */,
-				E2C1DA9C1C4C185C0083ACB8 /* tvosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E2C1DA9B1C4C185C0083ACB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2C1DAA91C4C18660083ACB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E2D92EB31C0392E40065268F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,52 +487,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E2C1DA991C4C185C0083ACB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2C1DACD1C4C190C0083ACB8 /* OccupiableProtocol.swift in Sources */,
-				E2C1DABC1C4C18AA0083ACB8 /* OccupiableTests.swift in Sources */,
-				E2C1DACC1C4C190C0083ACB8 /* BlockNotification.swift in Sources */,
-				E2C1DACF1C4C190C0083ACB8 /* DictionaryExtension.swift in Sources */,
-				E2C1DABF1C4C18AA0083ACB8 /* NSObjectExtensionTests.swift in Sources */,
-				E2C1DAC01C4C18AA0083ACB8 /* StringExtensionTests.swift in Sources */,
-				E2C1DAA01C4C185C0083ACB8 /* tvosTests.swift in Sources */,
-				E2C1DAC21C4C18AA0083ACB8 /* NSRangeExtensionTests.swift in Sources */,
-				E2C1DAD21C4C190C0083ACB8 /* NSRangeExtension.swift in Sources */,
-				E2C1DABD1C4C18AA0083ACB8 /* ArrayExtensionTests.swift in Sources */,
-				E2C1DAD31C4C190C0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */,
-				E2C1DAD11C4C190C0083ACB8 /* NSUserDefaultsExtension.swift in Sources */,
-				E2C1DAC11C4C18AA0083ACB8 /* NSUserDefaultsExtensionTests.swift in Sources */,
-				E2C1DABE1C4C18AA0083ACB8 /* DictionaryExtensionTests.swift in Sources */,
-				E2C1DAD01C4C190C0083ACB8 /* StringExtension.swift in Sources */,
-				E2C1DACE1C4C190C0083ACB8 /* ArrayExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2C1DAA71C4C18660083ACB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2C1DAC51C4C190B0083ACB8 /* OccupiableProtocol.swift in Sources */,
-				E2C1DAB51C4C18A90083ACB8 /* OccupiableTests.swift in Sources */,
-				E2C1DAC41C4C190B0083ACB8 /* BlockNotification.swift in Sources */,
-				E2C1DAC71C4C190B0083ACB8 /* DictionaryExtension.swift in Sources */,
-				E2C1DAB81C4C18A90083ACB8 /* NSObjectExtensionTests.swift in Sources */,
-				E2C1DAB91C4C18A90083ACB8 /* StringExtensionTests.swift in Sources */,
-				E2C1DAAE1C4C18660083ACB8 /* osxTests.swift in Sources */,
-				E2C1DABB1C4C18A90083ACB8 /* NSRangeExtensionTests.swift in Sources */,
-				E2C1DACA1C4C190B0083ACB8 /* NSRangeExtension.swift in Sources */,
-				E2C1DAB61C4C18A90083ACB8 /* ArrayExtensionTests.swift in Sources */,
-				E2C1DACB1C4C190B0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */,
-				E2C1DAC91C4C190B0083ACB8 /* NSUserDefaultsExtension.swift in Sources */,
-				E2C1DABA1C4C18A90083ACB8 /* NSUserDefaultsExtensionTests.swift in Sources */,
-				E2C1DAB71C4C18A90083ACB8 /* DictionaryExtensionTests.swift in Sources */,
-				E2C1DAC81C4C190B0083ACB8 /* StringExtension.swift in Sources */,
-				E2C1DAC61C4C190B0083ACB8 /* ArrayExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E2D92EB11C0392E40065268F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -681,6 +494,7 @@
 				E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */,
 				E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */,
+				E2986E9D1CCAE82700D438A8 /* IntExtension.swift in Sources */,
 				E2D92EDF1C03946B0065268F /* BlockNotification.swift in Sources */,
 				E29E735D1C05119900F059F1 /* UIImageExtension.swift in Sources */,
 				E2D92EFE1C0396D80065268F /* UIViewExtensions.swift in Sources */,
@@ -737,6 +551,7 @@
 				E29E73401C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */,
 				E2C1DA5F1C4BDDDD0083ACB8 /* AppDelegate.swift in Sources */,
+				E2986E9E1CCAE82700D438A8 /* IntExtension.swift in Sources */,
 				E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2F13EBA1C04A3BC0029E7E4 /* ArrayExtension.swift in Sources */,
 				E23B1D8C1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
@@ -754,6 +569,7 @@
 				E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */,
 				E29E73581C04CC6A00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E2F13EBB1C04A3BD0029E7E4 /* ArrayExtension.swift in Sources */,
+				E2986E9F1CCAE82700D438A8 /* IntExtension.swift in Sources */,
 				E281B9251C039DA0000DADBA /* AppDelegate.swift in Sources */,
 				E23B1D8D1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */,
@@ -765,16 +581,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E2C1DAA31C4C185C0083ACB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2D92F041C0397050065268F /* tvos */;
-			targetProxy = E2C1DAA21C4C185C0083ACB8 /* PBXContainerItemProxy */;
-		};
-		E2C1DAB11C4C18660083ACB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2D92EE81C0395320065268F /* osx */;
-			targetProxy = E2C1DAB01C4C18660083ACB8 /* PBXContainerItemProxy */;
-		};
 		E2D92ECB1C0392E40065268F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E2D92EB41C0392E40065268F /* ios */;
@@ -794,58 +600,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E2C1DAA51C4C185C0083ACB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = tvosTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.tvosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		E2C1DAA61C4C185C0083ACB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = tvosTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.tvosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
-		E2C1DAB31C4C18660083ACB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = osxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.osxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E2C1DAB41C4C18660083ACB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = osxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.osxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		E2D92ED01C0392E40065268F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1032,22 +786,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C1DAA41C4C185C0083ACB8 /* Build configuration list for PBXNativeTarget "tvosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2C1DAA51C4C185C0083ACB8 /* Debug */,
-				E2C1DAA61C4C185C0083ACB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		E2C1DAB21C4C18660083ACB8 /* Build configuration list for PBXNativeTarget "osxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2C1DAB31C4C18660083ACB8 /* Debug */,
-				E2C1DAB41C4C18660083ACB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		E2D92EB01C0392E40065268F /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
