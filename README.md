@@ -31,7 +31,7 @@ Check out the repot to find examples for each extensions / utils from the librar
 - [UIImage](#uiimage-extensions)
 - **Gestures:**
  - [BlockTapGesturesRecognizers](#blocktapgesturesrecognizers)
- - [BlockLongPressGesturesRecognizers](#blocklonggesturesrecognizers)
+ - [BlockLongPressGesturesRecognizers](#blocklongpressgesturesrecognizers)
  - [BlockSwipeGesturesRecognizers](#blockswipegesturesrecognizers)
  - [BlockPanGesturesRecognizers](#blockpangesturesrecognizers)
  - [BlockPinchGesturesRecognizers](#blockpinchgesturesrecognizers)
@@ -253,7 +253,7 @@ NSBundle(URL: someURL)?.appBuild
 NSBundle.mainBundle().appBuild
 ```
 
-### UIScreen extensions (iOS only)
+### UIScreen extensions
 
 **Screen orientation**
 
