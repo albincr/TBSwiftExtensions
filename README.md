@@ -19,8 +19,7 @@ Check out the repot to find examples for each extensions / utils from the librar
 - [String](#string-extensions)
 - [NSUserDefaults](#nsuserdefaults-extensions)
 - [NSMutableAttributedString](#nsmutableattributedstring-extensions)
-- [Block Notifications](#block-notification)
-
+- [BlockNotification](#blocknotification)
 - **Protocols:**
  - [Occupiable](#occupiable)
 
@@ -30,7 +29,6 @@ Check out the repot to find examples for each extensions / utils from the librar
 - [UIScreen](#uiscreen-extensions)
 - [UIView](#uiview-extensions)
 - [UIImage](#uiimage-extensions)
-
 - **Gestures:**
  - [BlockTapGesturesRecognizers](#blocktapgesturesrecognizers)
  - [BlockLongPressGesturesRecognizers](#blocklonggesturesrecognizers)
@@ -117,7 +115,7 @@ var aString = "test@"
 print(aString.isEmail) // false
 ```
 
-### NSUserDefaults extension
+### NSUserDefaults extensions
 
 **Is key set in the user defaults**
 
@@ -133,7 +131,7 @@ NSUserDefaults.standarUserDefaults.contains("aKey")
 NSUserDefaults.standarUserDefaults.reset()
 ```
 
-### NSMutableAttributedString
+### NSMutableAttributedString extensions
 
 **Colorize each occurence**
 
@@ -201,7 +199,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextUnderline(afterOcurrence: "llo")
 ```
 
-### Occupiable (iOS, OSX, tvOS)
+### Occupiable
 
 The following use cases works for String Array, Dictionary, and Set
 
@@ -282,14 +280,14 @@ print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
 print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 ```
 
-### UIImage extension (iOS only)
+### UIImage extensions
 
 **Create an image from a color**
 
 ```
 let image = UIImage.imageWithColor(UIColor.greenColor())
 ```
-### UIView extensions (iOS only)
+### UIView extensions
 
 **Automates your localizables**
 
@@ -308,9 +306,7 @@ let myCustomView: CustomView = UIView.fromNib()
 let myCustomView = UIView.fromNib() as? CustomView
 ```
 
-### Gestures
-
-**BlockTapGesturesRecognizers**:
+### BlockTapGesturesRecognizers
 
 ```
 let blockTapGesture = BlockTapGestureRecognizer() { _ in
@@ -326,7 +322,7 @@ let blockTapGesture = BlockTapGestureRecognizer(numberOfTapsRequired: 1, numberO
 view.addGestureRecognizer(blockTapGesture)
 ```
 
-**BlockLongPressGesturesRecognizers**:
+### BlockLongPressGesturesRecognizers
 
 ```
 let longPressGesture = BlockLongPressGestureRecognizer() { _ in
@@ -342,7 +338,7 @@ let longPressGesture = BlockLongPressGestureRecognizer(numberOfTapsRequired: 0, 
 view.addGestureRecognizer(longPressGesture)
 ```
 
-**BlockSwipeGesturesRecognizers**:
+### BlockSwipeGesturesRecognizers
 
 ```
 let swipeDownGesture = BlockSwipeGestureRecognizer(direction: .Down) { _ in
@@ -358,7 +354,7 @@ let swipeDownGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, d
 view.addGestureRecognizer(swipeDownGesture)
 ```
 
-**BlockPanGesturesRecognizers**:
+### BlockPanGesturesRecognizers
 
 ```
 let panGesture = BlockPanGestureRecognizer() { _ in
@@ -374,7 +370,7 @@ let panGesture = BlockPanGestureRecognizer(minimumNumberOfTouches: 1) { _ in
 view.addGestureRecognizer(panGesture)
 ```
 
-**BlockPinchGesturesRecognizers**:
+### BlockPinchGesturesRecognizers
 
 ```
 let pinchGesture = BlockPinchGestureRecognizer { _ in
