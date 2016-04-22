@@ -48,7 +48,7 @@ class NotificationsExampleTableViewController: UITableViewController {
    
     @IBAction func addNotificationPressed() {
         addNotification("NotificationExample\(totalNotificationsAdded)")
-        totalNotificationsAdded++
+        totalNotificationsAdded += 1
     }
     
     // MARK - UITableView

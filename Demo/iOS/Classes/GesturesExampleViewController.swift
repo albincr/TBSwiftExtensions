@@ -61,33 +61,33 @@ class GesturesExampleViewController: UIViewController {
     
     func handleTapGesture() {
         let blockTapGesture = BlockTapGestureRecognizer() { _ in
-            self.tapCounter++
+            self.tapCounter += 1
         }
         view.addGestureRecognizer(blockTapGesture)
     }
     
     func handleLongPressGesture() {
         let longPressGesture = BlockLongPressGestureRecognizer(minimumPressDuration: 0.5) { _ in
-            self.longPressCounter++
+            self.longPressCounter += 1
         }
         view.addGestureRecognizer(longPressGesture)
     }
 
     func handleSwipeGesture() {
         let swipeDownGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, direction: .Down) { _ in
-            self.swipeCounter++
+            self.swipeCounter += 1
         }
         
         let swipeUpGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, direction: .Up) { _ in
-            self.swipeCounter++
+            self.swipeCounter += 1
         }
         
         let swipeLeftGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, direction: .Left) { _ in
-            self.swipeCounter++
+            self.swipeCounter += 1
         }
         
         let swipeRightGesture = BlockSwipeGestureRecognizer(numberOfTouchesRequired: 1, direction: .Right) { _ in
-            self.swipeCounter++
+            self.swipeCounter += 1
         }
 
         view.addGestureRecognizer(swipeUpGesture)

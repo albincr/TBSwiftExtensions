@@ -13,7 +13,7 @@ extension NSRange {
     init(text: String, afterOccurence occurence: String) {
         self = (text as NSString).rangeOfString(occurence, options: [])
         if location != NSNotFound {
-            location++
+            location += 1
             length = text.length - location
         }
     }

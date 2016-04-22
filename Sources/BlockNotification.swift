@@ -34,7 +34,7 @@ class BlockNotification {
     // MARK - 
     
     internal func start() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "handleNotification:", name: name, object: object)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(handleNotification(_:)), name: name, object: object)
     }
     
     internal func stop() {
