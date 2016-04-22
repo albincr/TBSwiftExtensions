@@ -5,54 +5,42 @@
 [![Platform](https://img.shields.io/cocoapods/p/TBSwiftExtensions.svg?style=flat)](http://cocoadocs.org/docsets/TBSwiftExtensions)
 [![License](https://img.shields.io/cocoapods/l/TBSwiftExtensions.svg?style=flat)](http://cocoapods.org/pods/TBSwiftExtensions)
 
-TBSwiftExtensions is a delightful iOS, OSX and tvOS library.
+TBSwiftExtensions making swift usage easier for iOS, OSX and tvOS library.
 
-The goal of this library is to provide useful extensions / helpers that can be used anywhere quickly and easily in order to reduce the code used for a same task. 
+## Contents
 
+Check out the repot to find examples for each extensions / utils from the library.
 
-#Installation
+**Available for iOS, OS X, and tvOS:**
 
-- Swift 2 or later
-- iOS 8.0 or later
-- OSX 10.10 or later
-- tvOS 9.0 or later
+- [Array](#array-extensions)
+- [Dictionary](#dictionary-extensions)
+- [NSObject](#nsobject-extensions)
+- [String](#string-extensions)
+- [NSUserDefaults](#nsuserdefaults-extensions)
+- [NSMutableAttributedString](#nsmutableattributedstring-extensions)
+- [Block Notifications](#block-notification)
 
-###Manually (iOS 7+)
+- **Protocols:**
+ - [Occupiable](#occupiable)
 
-Copy the TBSwiftExtensions folder into your Xcode project. (Make sure you add the files to your target(s))
+**Available for iOS:**
 
-###CocoaPods 0.36.0 or later (iOS 8+)
+- [NSBundle](#nsbundle-extensions)
+- [UIScreen](#uiscreen-extensions)
+- [UIView](#uiview-extensions)
+- [UIImage](#uiimage-extensions)
 
+- **Gestures:**
+ - [BlockTapGesturesRecognizers](#blocktapgesturesrecognizers)
+ - [BlockLongPressGesturesRecognizers](#blocklonggesturesrecognizers)
+ - [BlockSwipeGesturesRecognizers](#blockswipegesturesrecognizers)
+ - [BlockPanGesturesRecognizers](#blockpangesturesrecognizers)
+ - [BlockPinchGesturesRecognizers](#blockpinchgesturesrecognizers)
 
-Add `pod TBSwiftExtensions` to your Podfile:
+## Available for iOS, OS X, and tvOS
 
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
-
-pod 'TBSwiftExtensions'
-```
-
-###Swift Package Manager
-
-You can use [The Swift Package Manager](https://swift.org/package-manager) to install `TBSwiftExtensions` by adding the proper description to your `Package.swift` file:
-
-```
-import PackageDescription
-
-let package = Package(
-    dependencies: [
-        .Package(url: "https://github.com/tbaranes/TBSwiftExtensions.git", majorVersion: 0)
-    ]
-)
-```
-
-#Usage
-
-Within this repo you'll find the examples for iOS, OSX, and tvOS using each extensions / helpers from the library.
-
-### Array extensions (iOS, OSX, tvOS)
+### Array extensions
 
 **Remove an object**
 
@@ -60,11 +48,11 @@ Within this repo you'll find the examples for iOS, OSX, and tvOS using each exte
 var array = [1, 2, 3]
 var isObjectRemoved = array.removeObject(2)
 print(isObjectRemoved) // true
-isObjectRemoved = array.removeObject(5) 
+isObjectRemoved = array.removeObject(5)
 print(isObjectRemoved) // false
 ```
 
-### Dictionary extensions (iOS, OSX, tvOS)
+### Dictionary extensions
 
 **Merge several dictionaries**
 
@@ -72,11 +60,11 @@ print(isObjectRemoved) // false
 let dic1 = ["one": 1, "two": 2]
 let dic2 = ["three": 3, "four": 4]
 var finalDic: Dictionary<String, Int> = [:]
-finalDic.merge(dic1, dic2) 
+finalDic.merge(dic1, dic2)
 print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
 ```
 
-### NSObject extension (iOS, OSX, tvOS)
+### NSObject extensions
 
 **Get the class name of a `NSObject`**
 
@@ -86,7 +74,7 @@ print(vc.className) // UIViewController
 print(UIViewController.className) // UIViewController
 ```
 
-### String extension (iOS, OSX, tvOS)
+### String extensions
 
 **Length**
 
@@ -116,7 +104,7 @@ print (aString.contains("hellooooo")) // false
 
 ```
 var aString = "hello world"
-aString = aString.capitalizeFirst 
+aString = aString.capitalizeFirst
 print(aString)// Hello world
 ```
 
@@ -129,7 +117,7 @@ var aString = "test@"
 print(aString.isEmail) // false
 ```
 
-### NSUserDefaults extension (iOS, OSX, tvOS)
+### NSUserDefaults extension
 
 **Is key set in the user defaults**
 
@@ -145,7 +133,113 @@ NSUserDefaults.standarUserDefaults.contains("aKey")
 NSUserDefaults.standarUserDefaults.reset()
 ```
 
-### NSBundle extension (iOS only)
+### NSMutableAttributedString
+
+**Colorize each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextcolor("hello world", color: UIColor.yellowColor(), forOccurences: "llo")
+
+// OR
+
+let attrStr: NSMutableAttributedString = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextColor(UIColor.yellowColor(), forOccurences: "llo")
+```
+
+**Colorize everything after an occurence**
+
+```
+let attrStr = NSMutableAttributedString.setTextcolor("Hello world", color: UIColor.yellowColor(), afterOcurrence: "llo")
+
+// OR
+
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextColor(UIColor.yellowColor(), afterOcurrence: "llo")
+```
+
+**Strike each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", forOccurences: "llo")
+
+// OR
+
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextStrike(forOccurences: "llo")
+```
+
+**Strike everything after an occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", afterOcurrence: "llo")
+
+// OR
+
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextStrike(afterOcurrence: "llo")
+```
+
+**Underline each occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", forOccurences: "llo")
+
+// OR
+
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextUnderline(forOccurences: "llo")
+```
+
+**Underline everything after an occurence**
+
+```
+let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", afterOcurrence: "llo")
+
+// OR
+
+let attrStr = NSMutableAttributedString(string: "Hello world")
+attrStr.setTextUnderline(afterOcurrence: "llo")
+```
+
+### Occupiable (iOS, OSX, tvOS)
+
+The following use cases works for String Array, Dictionary, and Set
+
+**`isEmpty` / `isNotEmpty`**
+
+*No optional types only*
+
+```
+var string = "Hello world"
+print(string.isNotEmpty) // true
+print(string.isEmpty) // false
+```
+
+**`isNilOrEmpty`**
+
+*Optional types only*
+
+```
+let string: String? = ""
+print(string.isNilOrEmpty) // true
+```
+
+### BlockNotifications
+
+```
+// Register a notification
+let notificationProxy = BlockNotification("aNotificationName": name) { notification in
+	print("notification received: \(notification.object))
+}
+
+// Post a notification
+NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", object: "Hello world")
+
+```
+
+## Available on iOS
+
+### NSBundle extensions
 
 **App version**
 
@@ -161,7 +255,7 @@ NSBundle(URL: someURL)?.appBuild
 NSBundle.mainBundle().appBuild
 ```
 
-### UIScreen extension (iOS only)
+### UIScreen extensions (iOS only)
 
 **Screen orientation**
 
@@ -214,111 +308,7 @@ let myCustomView: CustomView = UIView.fromNib()
 let myCustomView = UIView.fromNib() as? CustomView
 ```
 
-### NSMutableAttributedString (iOS, OSX, tvOS)
-
-**Colorize each occurence**
-
-```
-let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextcolor("hello world", color: UIColor.yellowColor(), forOccurences: "llo")
-
-// OR
-
-let attrStr: NSMutableAttributedString = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextColor(UIColor.yellowColor(), forOccurences: "llo")
-```
-
-**Colorize everything after an occurence**
-
-```
-let attrStr = NSMutableAttributedString.setTextcolor("Hello world", color: UIColor.yellowColor(), afterOcurrence: "llo")
-
-// OR 
-        
-let attrStr = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextColor(UIColor.yellowColor(), afterOcurrence: "llo")
-```
-
-**Strike each occurence**
-
-```
-let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", forOccurences: "llo")
-
-// OR 
-        
-let attrStr = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextStrike(forOccurences: "llo")
-```
-
-**Strike everything after an occurence**
-
-```
-let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", afterOcurrence: "llo")
-
-// OR 
-        
-let attrStr = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextStrike(afterOcurrence: "llo")
-```
-
-**Underline each occurence**
-
-```
-let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", forOccurences: "llo")
-
-// OR 
-        
-let attrStr = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextUnderline(forOccurences: "llo")
-```
-
-**Underline everything after an occurence**
-
-```
-let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", afterOcurrence: "llo")
-
-// OR 
-        
-let attrStr = NSMutableAttributedString(string: "Hello world")
-attrStr.setTextUnderline(afterOcurrence: "llo")
-```
-
-### Occupiable (iOS, OSX, tvOS)
-
-The following use cases works for String Array, Dictionary, and Set
-
-**`isEmpty` / `isNotEmpty`**
-
-*No optional types only*
-
-```
-var string = "Hello world"
-print(string.isNotEmpty) // true
-print(string.isEmpty) // false
-```
-
-**`isNilOrEmpty`**
-
-*Optional types only*
-
-```
-let string: String? = ""
-print(string.isNilOrEmpty) // true
-```
-
-### BlockNotification (iOS, OSX, tvOS)
-
-```
-// Register a notification
-let notificationProxy = BlockNotification("aNotificationName": name) { notification in
-	print("notification received: \(notification.object))
-}
-
-// Post a notification
-NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", object: "Hello world")
-
-```
-
-###Gestures (iOS only)
+### Gestures
 
 **BlockTapGesturesRecognizers**:
 
@@ -328,7 +318,7 @@ let blockTapGesture = BlockTapGestureRecognizer() { _ in
 }
 view.addGestureRecognizer(blockTapGesture)
 
-// OR 
+// OR
 
 let blockTapGesture = BlockTapGestureRecognizer(numberOfTapsRequired: 1, numberOfTouchesRequired: 1) { _ in
    print("tap gesture detected")
@@ -356,7 +346,7 @@ view.addGestureRecognizer(longPressGesture)
 
 ```
 let swipeDownGesture = BlockSwipeGestureRecognizer(direction: .Down) { _ in
-	print("swipe gesture detected")	
+	print("swipe gesture detected")
 }
 view.addGestureRecognizer(swipeDownGesture)
 
@@ -393,16 +383,44 @@ let pinchGesture = BlockPinchGestureRecognizer { _ in
 viewPinchGesture.addGestureRecognizer(pinchGesture)     
 ```
 
-#Feedback
+## Installation
+
+- iOS 8.0 or later
+- OS X 10.10 or later
+- tvOS 9.0 or later
+
+### Manually
+
+Copy the TBSwiftExtensions folder into your Xcode project. (Make sure you add the files to your target(s))
+
+### CocoaPods
+
+Add `pod TBSwiftExtensions` to your Podfile.
+
+### Swift Package Manager
+
+You can use [The Swift Package Manager](https://swift.org/package-manager) to install `TBSwiftExtensions` by adding the proper description to your `Package.swift` file:
+
+```
+import PackageDescription
+
+let package = Package(
+    dependencies: [
+        .Package(url: "https://github.com/tbaranes/TBSwiftExtensions.git", majorVersion: 0)
+    ]
+)
+```
+
+## Feedback
 
   * If you found a **bug**, open an **issue**
   * If you have a **feature request**, open an **issue**
   * If you want to **contribute**, submit a **pull request**
 
-#Contact
+## Contact
 
 * [@tbaranes](https://github.com/tbaranes/) on github
 
-#License
+## License
 
 TBSwiftExtensions is under the MIT license. See the [LICENSE](https://github.com/tbaranes/TBSwiftExtensions/blob/master/LICENSE) file for more information.
