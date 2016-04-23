@@ -17,6 +17,7 @@ Check out the repot to find examples for each extensions / utils from the librar
 - [Dictionary](#dictionary-extensions)
 - [NSObject](#nsobject-extensions)
 - [String](#string-extensions)
+- [Int](#int-extensions)
 - [NSUserDefaults](#nsuserdefaults-extensions)
 - [NSMutableAttributedString](#nsmutableattributedstring-extensions)
 - [BlockNotification](#blocknotification)
@@ -42,7 +43,7 @@ Check out the repot to find examples for each extensions / utils from the librar
 
 **Remove an object**
 
-```
+```swift
 var array = [1, 2, 3]
 var isObjectRemoved = array.removeObject(2)
 print(isObjectRemoved) // true
@@ -54,7 +55,7 @@ print(isObjectRemoved) // false
 
 **Merge several dictionaries**
 
-```
+```swift
 let dic1 = ["one": 1, "two": 2]
 let dic2 = ["three": 3, "four": 4]
 var finalDic: Dictionary<String, Int> = [:]
@@ -66,7 +67,7 @@ print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
 
 **Get the class name of a `NSObject`**
 
-```
+```swift
 let vc = UIViewController()
 print(vc.className) // UIViewController
 print(UIViewController.className) // UIViewController
@@ -76,14 +77,14 @@ print(UIViewController.className) // UIViewController
 
 **Length**
 
-```
+```swift
 var aString = "hello world"
 print(aString.length) // 11
 ```
 
 **Subscript usage**
 
-```
+```swift
 var aString = "hello world"
 print(aString[0]) // h
 print(aString[2]) // l
@@ -92,7 +93,7 @@ print(aString[1...3]) // ell
 
 **Contains**
 
-```
+```swift
 let aString = "Hello world"
 print (aString.contains("hello")) // true
 print (aString.contains("hellooooo")) // false
@@ -100,7 +101,7 @@ print (aString.contains("hellooooo")) // false
 
 **Capitalize the first letter**
 
-```
+```swift
 var aString = "hello world"
 aString = aString.capitalizeFirst
 print(aString)// Hello world
@@ -108,18 +109,29 @@ print(aString)// Hello world
 
 **Check if an email is valid**
 
-```
+```swift
 var aString = "test@gmail.com"
 print(aString.isEmail) // true
 var aString = "test@"
 print(aString.isEmail) // false
 ```
 
+### Int extensions
+
+```swift
+var myNumber = -33
+print(myNumber.isEven) // false
+print(myNumber.isOdd) // true
+print(myNumber.isPositive) // false
+print(myNumber.isNegative) // true
+print(myNumber.digits) // 2
+```
+
 ### NSUserDefaults extensions
 
 **Is key set in the user defaults**
 
-```
+```swift
 NSUserDefaults.contains("aKey")
 // OR
 NSUserDefaults.standarUserDefaults.contains("aKey")
@@ -127,7 +139,7 @@ NSUserDefaults.standarUserDefaults.contains("aKey")
 
 **Reset the defaults**
 
-```
+```swift
 NSUserDefaults.standarUserDefaults.reset()
 ```
 
@@ -135,7 +147,7 @@ NSUserDefaults.standarUserDefaults.reset()
 
 **Colorize each occurence**
 
-```
+```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextcolor("hello world", color: UIColor.yellowColor(), forOccurences: "llo")
 
 // OR
@@ -146,7 +158,7 @@ attrStr.setTextColor(UIColor.yellowColor(), forOccurences: "llo")
 
 **Colorize everything after an occurence**
 
-```
+```swift
 let attrStr = NSMutableAttributedString.setTextcolor("Hello world", color: UIColor.yellowColor(), afterOcurrence: "llo")
 
 // OR
@@ -157,7 +169,7 @@ attrStr.setTextColor(UIColor.yellowColor(), afterOcurrence: "llo")
 
 **Strike each occurence**
 
-```
+```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", forOccurences: "llo")
 
 // OR
@@ -168,7 +180,7 @@ attrStr.setTextStrike(forOccurences: "llo")
 
 **Strike everything after an occurence**
 
-```
+```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", afterOcurrence: "llo")
 
 // OR
@@ -179,7 +191,7 @@ attrStr.setTextStrike(afterOcurrence: "llo")
 
 **Underline each occurence**
 
-```
+```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", forOccurences: "llo")
 
 // OR
@@ -190,7 +202,7 @@ attrStr.setTextUnderline(forOccurences: "llo")
 
 **Underline everything after an occurence**
 
-```
+```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", afterOcurrence: "llo")
 
 // OR
@@ -207,7 +219,7 @@ The following use cases works for String Array, Dictionary, and Set
 
 *No optional types only*
 
-```
+```swift
 var string = "Hello world"
 print(string.isNotEmpty) // true
 print(string.isEmpty) // false
@@ -217,14 +229,14 @@ print(string.isEmpty) // false
 
 *Optional types only*
 
-```
+```swift
 let string: String? = ""
 print(string.isNilOrEmpty) // true
 ```
 
 ### BlockNotifications
 
-```
+```swift
 // Register a notification
 let notificationProxy = BlockNotification("aNotificationName": name) { notification in
 	print("notification received: \(notification.object))
@@ -232,7 +244,6 @@ let notificationProxy = BlockNotification("aNotificationName": name) { notificat
 
 // Post a notification
 NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", object: "Hello world")
-
 ```
 
 ## Available on iOS
@@ -241,14 +252,14 @@ NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", o
 
 **App version**
 
-```
+```swift
 NSBundle.mainBundle().appVersion
 NSBundle(URL: someURL)?.appVersion
 ```
 
 **App build**
 
-```
+```swift
 NSBundle(URL: someURL)?.appBuild
 NSBundle.mainBundle().appBuild
 ```
@@ -257,7 +268,7 @@ NSBundle.mainBundle().appBuild
 
 **Screen orientation**
 
-```
+```swift
 if UIInterfaceOrientationIsPortrait(UIScreen.screenOrientation())) {
 	// Portrait
 } else {
@@ -267,7 +278,7 @@ if UIInterfaceOrientationIsPortrait(UIScreen.screenOrientation())) {
 
 **Screen size:**
 
-```
+```swift
 print(UIScreen.currentSize) // CGSize(375.0, 667.0) on iPhone6
 print(UIScreen.screenWidth) // 375.0 on iPhone6
 print(UIScreen.screenHeight) // 667.0 on iPhone6
@@ -276,7 +287,7 @@ print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
 
 **Status bar**
 
-```
+```swift
 print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 ```
 
@@ -284,14 +295,14 @@ print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 
 **Create an image from a color**
 
-```
+```swift
 let image = UIImage.imageWithColor(UIColor.greenColor())
 ```
 ### UIView extensions
 
 **Automates your localizables**
 
-```
+```swift
 aView.convertLocalizables()
 ```
 
@@ -300,7 +311,7 @@ By settings your localizable key in your xib / storyboard, all yours string will
 
 **Instantiate view from nib programatically**
 
-```
+```swift
 let myCustomView: CustomView = UIView.fromNib()
 // or
 let myCustomView = UIView.fromNib() as? CustomView
@@ -308,7 +319,7 @@ let myCustomView = UIView.fromNib() as? CustomView
 
 ### BlockTapGesturesRecognizers
 
-```
+```swift
 let blockTapGesture = BlockTapGestureRecognizer() { _ in
    print("tap gesture detected")
 }
@@ -324,7 +335,7 @@ view.addGestureRecognizer(blockTapGesture)
 
 ### BlockLongPressGesturesRecognizers
 
-```
+```swift
 let longPressGesture = BlockLongPressGestureRecognizer() { _ in
 	print("long press gesture detected")
 }
@@ -340,7 +351,7 @@ view.addGestureRecognizer(longPressGesture)
 
 ### BlockSwipeGesturesRecognizers
 
-```
+```swift
 let swipeDownGesture = BlockSwipeGestureRecognizer(direction: .Down) { _ in
 	print("swipe gesture detected")
 }
@@ -356,7 +367,7 @@ view.addGestureRecognizer(swipeDownGesture)
 
 ### BlockPanGesturesRecognizers
 
-```
+```swift
 let panGesture = BlockPanGestureRecognizer() { _ in
 	print("pan gesture detected"
 }
@@ -372,7 +383,7 @@ view.addGestureRecognizer(panGesture)
 
 ### BlockPinchGesturesRecognizers
 
-```
+```swift
 let pinchGesture = BlockPinchGestureRecognizer { _ in
 	print("pinch gesture detected"
 }
