@@ -11,8 +11,6 @@ import XCTest
 
 class StringExtensionTests: XCTestCase {
     
-    // MARK - Life cycle
-    
     override func setUp() {
         super.setUp()
     }
@@ -21,9 +19,12 @@ class StringExtensionTests: XCTestCase {
         super.tearDown()
     }
     
-    
-    // MARK -
-    
+}
+
+// MARK -
+
+extension StringExtensionTests {
+
     func testSubscriptIndex() {
         let aString = "Hello world"
         XCTAssertEqual(aString[0], "H")
@@ -34,10 +35,19 @@ class StringExtensionTests: XCTestCase {
         let aString = "Hello world"
         XCTAssertEqual(aString[1...3], "ell")
     }
+    
+}
 
+extension StringExtensionTests {
+    
     func testLengthRange() {
         let aString = "Hello world"
         XCTAssertEqual(aString.length, aString.characters.count)
+    }
+    
+    func testIsOnlyEmptySpacesAndNewLineCharacters() {
+        XCTAssertFalse("test".isOnlyEmptySpacesAndNewLineCharacters())
+        XCTAssertTrue(" \n ".isOnlyEmptySpacesAndNewLineCharacters())
     }
     
     func testClassName() {
@@ -46,27 +56,58 @@ class StringExtensionTests: XCTestCase {
         XCTAssertEqual(aString[0], "H")
     }
     
-    func testContainsSuccess() {
+    func testContains() {
         let aString = "Hello world"
         XCTAssertTrue(aString.contains("worl"))
         XCTAssertTrue(aString.contains("Hello"))
         XCTAssertTrue(aString.contains("Hello world"))
-    }
-
-    func testContainsSuccessFailure() {
-        let aString = "Hello world"
         XCTAssertFalse(aString.contains("elllo"))
     }
     
-    // MARK - Validators
-    
-    func testIsEmailValidSuccess() {
-        let aString = "test@gmail.com"
-        XCTAssertTrue(aString.isEmail)
+    func testIsIncludeEmoji() {
+        XCTAssertTrue("test 😃 emoji".containsEmoji())
+        XCTAssertFalse("test emoji".containsEmoji())
     }
     
-    func testIsEmailValidFailure() {
-        var aString = "test"
+}
+
+// MARK: - Getter
+
+extension StringExtensionTests {
+ 
+    func testExtractURLs() {
+        let string = "http://google.com http fpt:// http://facebook.com test"
+        let urls = string.extractURLs
+        XCTAssertEqual(urls.count, 2)
+    }
+    
+}
+
+// MARK: - Getter
+
+extension StringExtensionTests {
+ 
+    func testTrim() {
+        var string = "space space"
+        string.trim()
+        XCTAssertFalse(string.containsString(" "))
+    }
+    
+}
+
+// MARK - Validators
+
+extension StringExtensionTests {
+    
+    func testIsNumber() {
+        XCTAssertTrue("425252".isNumber())
+        XCTAssertFalse("test".isNumber())
+    }
+    
+    func testIsEmailValid() {
+        var aString = "test@gmail.com"
+        XCTAssertTrue(aString.isEmail)
+        aString = "test"
         XCTAssertFalse(aString.isEmail)
         aString = "test@gmail"
         XCTAssertFalse(aString.isEmail)
