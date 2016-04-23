@@ -41,19 +41,102 @@ Check out the repot to find examples for each extensions / utils from the librar
 
 ### Array extensions
 
-Remove an object
+Access to a random element:
 
-```swift
-var array = [1, 2, 3]
-var isObjectRemoved = array.removeObject(2)
-print(isObjectRemoved) // true
-isObjectRemoved = array.removeObject(5)
-print(isObjectRemoved) // false
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.random()) // 2 or something else
+```
+
+Find the indexes of an object:
+
+``` swift
+var myArray = [1, 2, 3, 1]
+print(myArray.indexesOf(1)) // [0,3]
+```
+
+Get index of last occurrence of an object:
+
+``` swift
+var myArray = [1, 2, 3, 1]
+print(myArray.lastIndexOf(1)) // 3
+```
+
+Remove an object:
+
+``` swift
+var myArray = [1, 2, 3]
+myArray.removeObject(2)
+print(myArray) // [1, 3]
+```
+
+Check if an array contains instance of an object:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.containsInstanceOf(1)) // true
+print(myArray.containsInstanceOf("1")) // false
+```
+
+Check if an array contains another array:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.containsArray([1, 2])) // true
+print(myArray.containsArray([5])) // false
+```
+
+Shuffle an array:
+
+``` swift
+var myArray = [1, 2, 3, "5", "6]
+myArray.shuffle()
+print(myArray) // [3, "6", 1, 2, "5"]
+```
+
+Get an object at a specified index:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.get(1)) // 2
+```
+
+Determine if an array contains an object:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.contains(1)) // true
+print(myArray.contains(11)) // false
+```
+
+Get intersection and union of two arrays:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.intersection([1, 5, 3])) // [1, 3]
+print(myArray.union([5, 6])) // [1, 2, 3, 5, 6]
+```
+
+Get difference between two arrays:
+
+``` swift
+var myArray = [1, 2, 3]
+print(myArray.difference([1])) // [2, 3]
+```
+
+Test all elements of an array against a closure:
+
+``` swift
+var myArray = [1, 2, 3]
+let result = myArray.testAll {
+	$0 == 1
+}
+print(result) // false
 ```
 
 ### Dictionary extensions
 
-Merge several dictionaries
+Merge several dictionaries:
 
 ```swift
 let dic1 = ["one": 1, "two": 2]
@@ -65,7 +148,7 @@ print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
 
 ### NSObject extensions
 
-Get the class name of a `NSObject`
+Get the class name of a `NSObject`:
 
 ```swift
 let vc = UIViewController()
@@ -75,14 +158,14 @@ print(UIViewController.className) // UIViewController
 
 ### String extensions
 
-Length
+Get the length of a string:
 
 ```swift
 var aString = "hello world"
 print(aString.length) // 11
 ```
 
-Subscript usage
+Access with subscript:
 
 ```swift
 var aString = "hello world"
@@ -91,7 +174,7 @@ print(aString[2]) // l
 print(aString[1...3]) // ell
 ```
 
-Contains
+Check if it contains a string:
 
 ```swift
 let aString = "Hello world"
@@ -99,7 +182,7 @@ print (aString.contains("hello")) // true
 print (aString.contains("hellooooo")) // false
 ```
 
-Capitalize the first letter
+Capitalize the first letter:
 
 ```swift
 var aString = "hello world"
@@ -107,7 +190,7 @@ aString = aString.capitalizeFirst
 print(aString)// Hello world
 ```
 
-Check if it's composed only of spaces and new lines
+Check if it's composed only of spaces and new lines:
 
 ```swift
 var aString = "  \n  "
@@ -115,14 +198,15 @@ print(aString.isOnlyEmptySpacesAndNewLineCharacters()) // true
 var aString = "test"
 print(aString.isOnlyEmptySpacesAndNewLineCharacters()) // false
 ```
-Trimmed spaces and new lines
+
+Trimmed spaces and new lines:
 
 ```swift
 var aString = " I'  am a    test  \n  "
 print(aString.trim()) // I'am a test
 ```
 
-Check if it's a number
+Check if it's a number:
 
 ```swift
 var aString = "4242"
@@ -131,7 +215,7 @@ var aString = "test"
 print(aString.isNumber) // false
 ```
 
-Check if an email is valid
+Check if it's a valid email:
 
 ```swift
 var aString = "test@gmail.com"
@@ -140,7 +224,7 @@ var aString = "test@"
 print(aString.isEmail) // false
 ```
 
-Extracts URLs
+Extracts URLs:
 
 ```swift
 let string = "http://google.com http fpt:// http://facebook.com test"
@@ -159,7 +243,7 @@ print(myNumber.digits) // 2
 
 ### NSUserDefaults extensions
 
-Is key set in the user defaults
+Check if the userdefaults contains a key:
 
 ```swift
 NSUserDefaults.contains("aKey")
@@ -167,7 +251,7 @@ NSUserDefaults.contains("aKey")
 NSUserDefaults.standarUserDefaults.contains("aKey")
 ```
 
-Reset the defaults
+Reset the defaults:
 
 ```swift
 NSUserDefaults.standarUserDefaults.reset()
@@ -175,7 +259,7 @@ NSUserDefaults.standarUserDefaults.reset()
 
 ### NSMutableAttributedString extensions
 
-Colorize each occurence
+Colorize each occurence:
 
 ```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextcolor("hello world", color: UIColor.yellowColor(), forOccurences: "llo")
@@ -186,7 +270,7 @@ let attrStr: NSMutableAttributedString = NSMutableAttributedString(string: "Hell
 attrStr.setTextColor(UIColor.yellowColor(), forOccurences: "llo")
 ```
 
-Colorize everything after an occurence
+Colorize everything after an occurence:
 
 ```swift
 let attrStr = NSMutableAttributedString.setTextcolor("Hello world", color: UIColor.yellowColor(), afterOcurrence: "llo")
@@ -197,7 +281,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextColor(UIColor.yellowColor(), afterOcurrence: "llo")
 ```
 
-Strike each occurence
+Strike each occurence:
 
 ```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", forOccurences: "llo")
@@ -208,7 +292,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextStrike(forOccurences: "llo")
 ```
 
-Strike everything after an occurence
+Strike everything after an occurence:
 
 ```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextStrike("Hello world", afterOcurrence: "llo")
@@ -219,7 +303,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextStrike(afterOcurrence: "llo")
 ```
 
-Underline each occurence
+Underline each occurence:
 
 ```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", forOccurences: "llo")
@@ -230,7 +314,7 @@ let attrStr = NSMutableAttributedString(string: "Hello world")
 attrStr.setTextUnderline(forOccurences: "llo")
 ```
 
-Underline everything after an occurence
+Underline everything after an occurence:
 
 ```swift
 let attrStr: NSMutableAttributedString = NSMutableAttributedString.setTextUnderline("Hello world", afterOcurrence: "llo")
@@ -280,14 +364,14 @@ NSNotificationCenter.defaultCenter().postNotificationName("aNotificationName", o
 
 ### NSBundle extensions
 
-App version
+Get the app version:
 
 ```swift
 NSBundle.mainBundle().appVersion
 NSBundle(URL: someURL)?.appVersion
 ```
 
-App build
+Get the app build:
 
 ```swift
 NSBundle(URL: someURL)?.appBuild
@@ -296,7 +380,7 @@ NSBundle.mainBundle().appBuild
 
 ### UIScreen extensions
 
-Screen orientation
+Get the screen orientation:
 
 ```swift
 if UIInterfaceOrientationIsPortrait(UIScreen.screenOrientation())) {
@@ -306,7 +390,7 @@ if UIInterfaceOrientationIsPortrait(UIScreen.screenOrientation())) {
 }
 ```
 
-Screen size:
+Get the screen size:
 
 ```swift
 print(UIScreen.currentSize) // CGSize(375.0, 667.0) on iPhone6
@@ -315,7 +399,7 @@ print(UIScreen.screenHeight) // 667.0 on iPhone6
 print(UIScreen.screenHeightWithoutStatusBar) // 647.0 on iPhone6
 ```
 
-Status bar
+Get the status bar height:
 
 ```swift
 print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
@@ -323,7 +407,7 @@ print(UIScreen.screenStatusBarHeight) // 20.0 on iPhone6
 
 ### UIImage extensions
 
-Create an image from a color
+Create an image from a color:
 
 ```swift
 let image = UIImage.imageWithColor(UIColor.greenColor())
