@@ -189,6 +189,53 @@ finalDic.merge(dic1, dic2)
 print(finalDic) // ["one": 1, "two": 2, "three": 3, "four": 4]
 ```
 
+## NSDate Extensions
+
+Initialize from string:
+
+``` swift
+let format = "yyyy/MM/dd"
+let fromString = "2015/03/11"
+print(NSDate(fromString: fromString, format: format)) // Optional("2015/03/11 00:00:00 +0000")
+```
+
+Convert date into string:
+
+``` swift
+let now = NSDate()
+print(now.toString())
+print(now.toString(dateStyle: .MediumStyle, timeStyle: .MediumStyle))
+print(now.toString(format: "yyyy/MM/dd HH:mm:ss"))
+```
+
+See how much time passed:
+
+``` swift
+let now = NSDate()
+let later = NSDate(timeIntervalSinceNow: -100000)
+print(later.daysInBetweenDate(now)) // 1.15740740782409
+print(later.hoursInBetweenDate(now)) // 27.7777777733571
+print(later.minutesInBetweenDate(now)) // 1666.66666641732
+print(later.secondsInBetweenDate(now)) // 99999.999984026
+```
+
+Check if dates are equal:
+
+``` swift
+let now = NSDate()
+let now2 = NSDate()
+print(now == now2) // false
+```
+
+Check which date is larger:
+
+``` swift
+let now = NSDate()
+let now2 = NSDate()
+print(now < now2) // true
+print(now2 < now) // false  
+```
+
 ### NSObject extensions
 
 Get the class name of a `NSObject`:
