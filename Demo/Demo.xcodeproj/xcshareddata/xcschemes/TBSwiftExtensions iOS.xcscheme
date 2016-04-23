@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2D92EE81C0395320065268F"
-               BuildableName = "osx.app"
-               BlueprintName = "osx"
+               BlueprintIdentifier = "E2D92EB41C0392E40065268F"
+               BuildableName = "TBSwiftExtensions iOS.app"
+               BlueprintName = "TBSwiftExtensions iOS"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2C1DAAA1C4C18660083ACB8"
-               BuildableName = "osxTests.xctest"
-               BlueprintName = "osxTests"
+               BlueprintIdentifier = "E2D92EC81C0392E40065268F"
+               BuildableName = "TBSwiftExtensions iOS Tests.xctest"
+               BlueprintName = "TBSwiftExtensions iOS Tests"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2D92EE81C0395320065268F"
-            BuildableName = "osx.app"
-            BlueprintName = "osx"
+            BlueprintIdentifier = "E2D92EB41C0392E40065268F"
+            BuildableName = "TBSwiftExtensions iOS.app"
+            BlueprintName = "TBSwiftExtensions iOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2D92EE81C0395320065268F"
-            BuildableName = "osx.app"
-            BlueprintName = "osx"
+            BlueprintIdentifier = "E2D92EB41C0392E40065268F"
+            BuildableName = "TBSwiftExtensions iOS.app"
+            BlueprintName = "TBSwiftExtensions iOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2D92EE81C0395320065268F"
-            BuildableName = "osx.app"
-            BlueprintName = "osx"
+            BlueprintIdentifier = "E2D92EB41C0392E40065268F"
+            BuildableName = "TBSwiftExtensions iOS.app"
+            BlueprintName = "TBSwiftExtensions iOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
