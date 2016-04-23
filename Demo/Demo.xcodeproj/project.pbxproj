@@ -11,10 +11,8 @@
 		E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8C1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D8D1C062E1A00C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
-		E23B1D8E1C062E9600C986BF /* NSRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8A1C062E1A00C986BF /* NSRangeExtension.swift */; };
 		E23B1D901C062EA400C986BF /* NSRangeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D8F1C062EA400C986BF /* NSRangeExtensionTests.swift */; };
 		E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D911C0645A300C986BF /* AttributedStringExampleViewController.swift */; };
-		E23B1D9A1C06527900C986BF /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D991C06527900C986BF /* NSObjectExtension.swift */; };
 		E23B1D9B1C06527B00C986BF /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B1D991C06527900C986BF /* NSObjectExtension.swift */; };
 		E281B9021C03998D000DADBA /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
 		E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
@@ -35,17 +33,12 @@
 		E2986E9F1CCAE82700D438A8 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986E9C1CCAE82700D438A8 /* IntExtension.swift */; };
 		E2986EA41CCAF2D700D438A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2986EA21CCAF2D700D438A8 /* Localizable.strings */; };
 		E29E732D1C04B20200F059F1 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
-		E29E73361C04B29800F059F1 /* OccupiableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */; };
-		E29E73371C04B2AC00F059F1 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */; };
-		E29E73381C04B2AF00F059F1 /* BlockNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D92EDC1C03946B0065268F /* BlockNotification.swift */; };
-		E29E73391C04B2AF00F059F1 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
 		E29E733B1C04B2B800F059F1 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EBF1C04A5D60029E7E4 /* ArrayExtensionTests.swift */; };
 		E29E733C1C04B2B800F059F1 /* DictionaryExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */; };
 		E29E733D1C04B2B800F059F1 /* NSObjectExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */; };
 		E29E733F1C04B32F00F059F1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
 		E29E73401C04B32F00F059F1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
 		E29E73411C04B32F00F059F1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
-		E29E73421C04B32F00F059F1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E733E1C04B32F00F059F1 /* StringExtension.swift */; };
 		E29E73441C04B42800F059F1 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73431C04B42800F059F1 /* StringExtensionTests.swift */; };
 		E29E73461C04BA6300F059F1 /* NSBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73451C04BA6300F059F1 /* NSBundleExtension.swift */; };
 		E29E734A1C04BD0000F059F1 /* OthersExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73491C04BD0000F059F1 /* OthersExampleViewController.swift */; };
@@ -53,7 +46,6 @@
 		E29E73561C04CC2D00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
 		E29E73571C04CC6900F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
 		E29E73581C04CC6A00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
-		E29E73591C04CC6B00F059F1 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E73551C04CC2D00F059F1 /* NSUserDefaultsExtension.swift */; };
 		E29E735B1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735A1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift */; };
 		E29E735D1C05119900F059F1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E735C1C05119900F059F1 /* UIImageExtension.swift */; };
 		E2B10BF71C04AB2F00C2811B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BF61C04AB2F00C2811B /* DictionaryExtension.swift */; };
@@ -62,7 +54,6 @@
 		E2C1DA5F1C4BDDDD0083ACB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5C1C4BDDDD0083ACB8 /* AppDelegate.swift */; };
 		E2C1DA601C4BDDDD0083ACB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1DA5D1C4BDDDD0083ACB8 /* Main.storyboard */; };
 		E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1DA5E1C4BDDDD0083ACB8 /* ViewController.swift */; };
-		E2C1DAC31C4C190A0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AADF1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
 		E2C9AAE01C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */; };
@@ -269,8 +260,7 @@
 		E2D92EDB1C03946B0065268F /* TBSwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				E2D92EFC1C0396D80065268F /* ios */,
-				E2D92F001C0396E10065268F /* osx */,
+				E2D92EFC1C0396D80065268F /* iOS */,
 				E2D92EDC1C03946B0065268F /* BlockNotification.swift */,
 				E2D92EDD1C03946B0065268F /* OccupiableProtocol.swift */,
 				E2F13EB81C04A3810029E7E4 /* ArrayExtension.swift */,
@@ -295,7 +285,7 @@
 			path = "TBSwiftExtensions OS X";
 			sourceTree = "<group>";
 		};
-		E2D92EFC1C0396D80065268F /* ios */ = {
+		E2D92EFC1C0396D80065268F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E2D92EFD1C0396D80065268F /* UIViewExtensions.swift */,
@@ -309,14 +299,8 @@
 				E29E735C1C05119900F059F1 /* UIImageExtension.swift */,
 				E23B1D991C06527900C986BF /* NSObjectExtension.swift */,
 			);
+			name = iOS;
 			path = ios;
-			sourceTree = "<group>";
-		};
-		E2D92F001C0396E10065268F /* osx */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = osx;
 			sourceTree = "<group>";
 		};
 		E2D92F061C0397050065268F /* TBSwiftExtensions tvOS */ = {
@@ -522,19 +506,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29E735B1C04CD1400F059F1 /* NSUserDefaultsExtensionTests.swift in Sources */,
-				E23B1D9A1C06527900C986BF /* NSObjectExtension.swift in Sources */,
 				E29E733B1C04B2B800F059F1 /* ArrayExtensionTests.swift in Sources */,
-				E29E73591C04CC6B00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
 				E29E733C1C04B2B800F059F1 /* DictionaryExtensionTests.swift in Sources */,
-				E23B1D8E1C062E9600C986BF /* NSRangeExtension.swift in Sources */,
 				E23B1D901C062EA400C986BF /* NSRangeExtensionTests.swift in Sources */,
-				E29E73421C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E29E733D1C04B2B800F059F1 /* NSObjectExtensionTests.swift in Sources */,
-				E29E73381C04B2AF00F059F1 /* BlockNotification.swift in Sources */,
-				E2C1DAC31C4C190A0083ACB8 /* NSMutableAttributedStringExtension.swift in Sources */,
-				E29E73391C04B2AF00F059F1 /* DictionaryExtension.swift in Sources */,
-				E29E73371C04B2AC00F059F1 /* ArrayExtension.swift in Sources */,
-				E29E73361C04B29800F059F1 /* OccupiableProtocol.swift in Sources */,
 				E29E73441C04B42800F059F1 /* StringExtensionTests.swift in Sources */,
 				E29E732D1C04B20200F059F1 /* OccupiableTests.swift in Sources */,
 			);

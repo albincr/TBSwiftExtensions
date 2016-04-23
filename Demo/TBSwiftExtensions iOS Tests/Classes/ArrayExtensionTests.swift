@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import TBSwiftExtensions_iOS
 
 class ArrayExtensionTests: XCTestCase {
 

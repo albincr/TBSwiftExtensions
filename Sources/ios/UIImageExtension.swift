@@ -6,8 +6,6 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
-#if os(iOS)
-    
 import UIKit
 
 extension UIImage {
@@ -23,5 +21,3 @@ extension UIImage {
     }
     
 }
-
-#endif

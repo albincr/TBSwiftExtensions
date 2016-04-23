@@ -6,8 +6,6 @@
 //  Copyright © 2015 Tom Baranes. All rights reserved.
 //
 
-#if os(iOS)
-    
 import UIKit
 
 extension UIScreen {
@@ -38,5 +36,3 @@ extension UIScreen {
     }
     
 }
-
-#endif

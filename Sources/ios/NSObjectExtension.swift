@@ -8,8 +8,6 @@
     
 import Foundation
 
-#if os(iOS)
-    
 extension NSObject {
     
     public var className: String {
@@ -25,5 +23,3 @@ extension NSObject {
 public func stringFromClass(aClass: AnyClass) -> String {
     return NSStringFromClass(aClass).componentsSeparatedByString(".").last!
 }
-
-#endif

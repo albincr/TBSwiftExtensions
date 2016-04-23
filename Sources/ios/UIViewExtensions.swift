@@ -5,8 +5,6 @@
 //  Created by Tom Baranes on 12/11/15.
 //  Copyright © 2015 Recisio. All rights reserved.
 //
-
-#if os(iOS)
     
 import Foundation
 import UIKit
@@ -71,5 +69,3 @@ extension UIView {
         return view
     }
 }
-
-#endif

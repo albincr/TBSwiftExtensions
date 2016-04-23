@@ -18,10 +18,10 @@ extension NSUserDefaults {
         return self.dictionaryRepresentation().keys.contains(key)
     }
     
-    public func reset() {
-        if let bundleIdentifier = NSBundle.mainBundle().bundleIdentifier {
-            self.removePersistentDomainForName(bundleIdentifier)
-            self.synchronize()
+    public func reset() {        
+        for key in Array(NSUserDefaults.standardUserDefaults().dictionaryRepresentation().keys) {
+            NSUserDefaults.standardUserDefaults().removeObjectForKey(key)
         }
     }
+    
 }
