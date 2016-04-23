@@ -9,10 +9,8 @@
 import Foundation
 #if os(iOS) || os (tvOS)
     import UIKit
-    public  typealias TBColor = UIColor
 #elseif os(OSX)
     import Cocoa
-    public typealias TBColor = NSColor
 #endif
 
 extension NSMutableAttributedString {

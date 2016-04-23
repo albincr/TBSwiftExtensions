@@ -15,6 +15,9 @@ Check out the repot to find examples for each extensions / utils from the librar
 
 - [Array](#array-extensions)
 - [Dictionary](#dictionary-extensions)
+- [NSDate](#nsdate-extensions)
+- [NSTimer](#nstimer-extensions)
+- [UIColor / NSColor](#uicolor-nscolor-extensions)
 - [NSObject](#nsobject-extensions)
 - [String](#string-extensions)
 - [Int](#int-extensions)
@@ -257,6 +260,18 @@ Schedule timer after a certain delay:
 NSTimer.after(seconds: 2) { () -> () in
     print("Prints this 2 seconds later in main queue")
 }
+```
+
+## UIColor / NSColor extensions
+
+Create colors with HEX values:
+
+``` swift
+let myColor = UIColor(hex: 0x233C64) // Equals 35,60,100,1
+let myColor2 = UIColor(hexString: "not hex string") // nil
+
+let myColor = NSColor(hex: 0x233C64) // Equals 35,60,100,1
+let myColor2 = NSColor(hexString: "not hex string") // nil
 ```
 
 ### NSObject extensions
