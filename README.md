@@ -236,6 +236,29 @@ print(now < now2) // true
 print(now2 < now) // false  
 ```
 
+## NSTimer Extensions
+
+Schedule timer every seconds:
+
+``` swift
+var count = 0
+NSTimer.every(seconds: 1) { timer in
+    print("Will print every second")
+    if count == 3 {
+        timer.invalidate()
+    }
+    count++
+}
+```
+
+Schedule timer after a certain delay:
+
+``` swift
+NSTimer.after(seconds: 2) { () -> () in
+    print("Prints this 2 seconds later in main queue")
+}
+```
+
 ### NSObject extensions
 
 Get the class name of a `NSObject`:

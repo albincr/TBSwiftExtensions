@@ -37,6 +37,9 @@
 		E2986EB31CCB0CE200D438A8 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB11CCB0CE200D438A8 /* NSDateExtension.swift */; };
 		E2986EB41CCB0CE200D438A8 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB11CCB0CE200D438A8 /* NSDateExtension.swift */; };
 		E2986EB61CCB0DED00D438A8 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB51CCB0DED00D438A8 /* DateExtensionTests.swift */; };
+		E2986EB81CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB71CCB0F1D00D438A8 /* NSTimerExtension.swift */; };
+		E2986EB91CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB71CCB0F1D00D438A8 /* NSTimerExtension.swift */; };
+		E2986EBA1CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2986EB71CCB0F1D00D438A8 /* NSTimerExtension.swift */; };
 		E29E732D1C04B20200F059F1 /* OccupiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E34DD1C0475EC004CD4C9 /* OccupiableTests.swift */; };
 		E29E733B1C04B2B800F059F1 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F13EBF1C04A5D60029E7E4 /* ArrayExtensionTests.swift */; };
 		E29E733C1C04B2B800F059F1 /* DictionaryExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B10BFB1C04AC4900C2811B /* DictionaryExtensionTests.swift */; };
@@ -109,6 +112,7 @@
 		E2986EAF1CCAF50400D438A8 /* IntExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensionTests.swift; sourceTree = "<group>"; };
 		E2986EB11CCB0CE200D438A8 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		E2986EB51CCB0DED00D438A8 /* DateExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		E2986EB71CCB0F1D00D438A8 /* NSTimerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerExtension.swift; sourceTree = "<group>"; };
 		E29E73221C04B0AE00F059F1 /* NSObjectExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensionTests.swift; sourceTree = "<group>"; };
 		E29E733E1C04B32F00F059F1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E29E73431C04B42800F059F1 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
@@ -281,6 +285,7 @@
 				E2C9AADD1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift */,
 				E2986E9C1CCAE82700D438A8 /* IntExtension.swift */,
 				E2986EB11CCB0CE200D438A8 /* NSDateExtension.swift */,
+				E2986EB71CCB0F1D00D438A8 /* NSTimerExtension.swift */,
 			);
 			name = TBSwiftExtensions;
 			path = ../Sources;
@@ -485,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23B1D931C0645A600C986BF /* AttributedStringExampleViewController.swift in Sources */,
+				E2986EB81CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */,
 				E23B1D8B1C062E1A00C986BF /* NSRangeExtension.swift in Sources */,
 				E2C9AADE1C065BBD004CA36A /* NSMutableAttributedStringExtension.swift in Sources */,
 				E2986E9D1CCAE82700D438A8 /* IntExtension.swift in Sources */,
@@ -535,6 +541,7 @@
 			files = (
 				E2986EB31CCB0CE200D438A8 /* NSDateExtension.swift in Sources */,
 				E2C1DA611C4BDDDD0083ACB8 /* ViewController.swift in Sources */,
+				E2986EB91CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */,
 				E2D92EFA1C03955A0065268F /* BlockNotification.swift in Sources */,
 				E29E73401C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E2D92EFB1C03955A0065268F /* OccupiableProtocol.swift in Sources */,
@@ -554,6 +561,7 @@
 			files = (
 				E2986EB41CCB0CE200D438A8 /* NSDateExtension.swift in Sources */,
 				E281B9261C039DA0000DADBA /* ViewController.swift in Sources */,
+				E2986EBA1CCB0F1D00D438A8 /* NSTimerExtension.swift in Sources */,
 				E29E73411C04B32F00F059F1 /* StringExtension.swift in Sources */,
 				E281B9031C03998D000DADBA /* OccupiableProtocol.swift in Sources */,
 				E29E73581C04CC6A00F059F1 /* NSUserDefaultsExtension.swift in Sources */,
