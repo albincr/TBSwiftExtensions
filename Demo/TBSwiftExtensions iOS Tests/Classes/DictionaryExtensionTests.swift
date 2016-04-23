@@ -11,31 +11,73 @@ import XCTest
 
 class DictionaryExtensionTests: XCTestCase {
     
-    // MARK - Life cycle
+    var firstdic: [String:Int]!
+    var secondDic: [String:Int]!
+    var thirdDic: [String:Int]!
+    var fourthDic: [String:Int]!
     
     override func setUp() {
         super.setUp()
+        firstdic = ["one" : 1, "two" : 2, "three" : 3]
+        secondDic = ["four" : 4, "five" : 5]
+        thirdDic = ["six" : 6, "seven" : 7]
+        fourthDic = ["two" : 2, "three" : 3, "five" : 5, "six" : 6]
     }
     
     override func tearDown() {
         super.tearDown()
     }
     
+}
+
+// MARK - Transform
+
+extension DictionaryExtensionTests {
     
-    // MARK -
-    
+    func testUnion() {
+        let union = firstdic.union(secondDic)
+        XCTAssertEqual(firstdic.keys.count + secondDic.keys.count, union.keys.count)
+        XCTAssertEqual(firstdic.values.count + secondDic.values.count, union.values.count)
+        
+        let multiUnion = firstdic | secondDic | thirdDic
+        XCTAssertEqual(firstdic.keys.count + secondDic.keys.count + thirdDic.keys.count, multiUnion.keys.count)
+        XCTAssertEqual(firstdic.values.count + secondDic.values.count + thirdDic.values.count, multiUnion.values.count)
+    }
+
     func testMergeDictionaries() {
-        let dic1 = ["one": 1, "two": 2]
-        let dic2 = ["three": 3, "four": 4]
         var finalDic: Dictionary<String, Int> = [:]
-        finalDic.merge(dic1, dic2)
-        XCTAssertEqual(finalDic.count, dic1.count + dic2.count)
-        for (key, _) in dic1 {
-            XCTAssertEqual(finalDic[key], dic1[key])
+        finalDic.merge(firstdic, secondDic)
+        XCTAssertEqual(finalDic.count, firstdic.count + secondDic.count)
+        for (key, _) in firstdic {
+            XCTAssertEqual(finalDic[key], firstdic[key])
         }
-        for (key, _) in dic2 {
-            XCTAssertEqual(finalDic[key], dic2[key])
+        for (key, _) in secondDic {
+            XCTAssertEqual(finalDic[key], secondDic[key])
         }
+    }
+    
+}
+
+// MARK: - Helpers
+
+extension DictionaryExtensionTests {
+    
+    func testHas() {
+        XCTAssertTrue(firstdic.has("one"))
+    }
+    
+    func testTestAll() {
+        let allKeysHaveMoreThan3Chars = firstdic.testAll { key, _ in key.length >= 3 }
+        XCTAssertTrue(allKeysHaveMoreThan3Chars)
+    }
+ 
+    func testDifference() {
+        let union = firstdic | secondDic
+        let difference = union - fourthDic
+        
+        XCTAssertTrue(difference.has("one"))
+        XCTAssertTrue(difference.has("four"))
+        XCTAssertEqual(difference.count, 2)
     }
     
 }

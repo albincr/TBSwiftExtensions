@@ -136,6 +136,49 @@ print(result) // false
 
 ### Dictionary extensions
 
+Check if a key exists in the dictionary:
+
+``` swift
+let dic1 = ["one": 1, "two": 2]
+print(myDict.has("one")) // True
+print(myDict.has("1")) // False
+```
+
+Access a random element:
+
+``` swift
+let dic1 = ["one": 1, "two": 2]
+print(myDict.random()) // 1 or something else
+```
+
+Add dictionaries to create new ones:
+
+``` swift
+let dic1 = ["one": 1]
+let dic2 = ["three": 3]
+
+dictionary1 += dictionary2
+print(dictionary1) // ["one": 1, "three": 3]
+```
+
+Easily get union of two dictionaries:
+
+``` swift
+let dic1 = ["one": 1, "two": 2]
+let dic2 = ["one": 1, "four": 4]
+
+let dictionary3 = dictionary1.union(dictionary2)
+print(dictionary3) // ["one": 1, "two": 2, "four": 4]
+```
+
+Get difference of two dictionaries:
+
+``` swift
+let dic1 = ["one": 1, "two": 2]
+let dic2 = ["one": 1, "four": 4]
+difference(dictionary1, dictionary2) // ["two": 2, "four": 4]
+```
+
 Merge several dictionaries:
 
 ```swift
